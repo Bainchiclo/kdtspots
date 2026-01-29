@@ -1,14 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="2" tvg-id="Basketball.Dummy.us" tvg-name="[Basketball Euroleague] Fenerbahce vs Anadolu Efes (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Fenerbahce vs Anadolu Efes (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://205.237.105.46/hls/OOOO.m3u8
-#EXTINF:-1 tvg-chno="3" tvg-id="Basketball.Dummy.us" tvg-name="[Basketball Euroleague] Fenerbahce vs Anadolu Efes 2 (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Fenerbahce vs Anadolu Efes 2 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://f.ulkjerg.shop/hls/OOOO.m3u8
 #EXTINF:-1 tvg-chno="4" tvg-id="Basketball.Dummy.us" tvg-name="[Basketball Euroleague] Hapoel Tel-Aviv vs Bayern Munchen 1 (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Hapoel Tel-Aviv vs Bayern Munchen 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -19,6 +9,16 @@ http://205.237.105.46/hls/OOOOQ.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://f.ulkjerg.shop/hls/OOOOQ.m3u8
+#EXTINF:-1 tvg-chno="6" tvg-id="Basketball.Dummy.us" tvg-name="[Basketball Euroleague] Olimpia Milano vs Partizan Mozzart Bet 1 (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Olimpia Milano vs Partizan Mozzart Bet 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://205.237.105.46/hls/OOOOQQQ.m3u8
+#EXTINF:-1 tvg-chno="7" tvg-id="Basketball.Dummy.us" tvg-name="[Basketball Euroleague] Olimpia Milano vs Partizan Mozzart Bet 2 (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Olimpia Milano vs Partizan Mozzart Bet 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://f.ulkjerg.shop/hls/OOOOQQQ.m3u8
 #EXTINF:-1 tvg-chno="8" tvg-id="Basketball.Dummy.us" tvg-name="[Basketball Euroleague] Olympiacos vs Barcelona 1 (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Olympiacos vs Barcelona 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -29,6 +29,21 @@ http://205.237.105.46/hls/OOOOQQ.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://f.ulkjerg.shop/hls/OOOOQQ.m3u8
+#EXTINF:-1 tvg-chno="10" tvg-id="Basketball.Dummy.us" tvg-name="[Basketball Euroleague] Valencia vs Maccabi Tel Aviv 1 (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Valencia vs Maccabi Tel Aviv 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://205.237.105.46/hls/OOOOQQQQ.m3u8
+#EXTINF:-1 tvg-chno="11" tvg-id="Basketball.Dummy.us" tvg-name="[Basketball Euroleague] Valencia vs Maccabi Tel Aviv 2 (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Valencia vs Maccabi Tel Aviv 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://f.ulkjerg.shop/hls/OOOOQQQQ.m3u8
+#EXTINF:-1 tvg-chno="19" tvg-id="Live.Event.us" tvg-name="[Coppa Italia Women] Juventus W vs Napoli W (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Coppa Italia Women] Juventus W vs Napoli W (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://a.swinapi.sbs/hls/bnbnbnQ.m3u8
 #EXTINF:-1 tvg-chno="20" tvg-id="Live.Event.us" tvg-name="[Cricket] South Africa vs West Indies (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Cricket] South Africa vs West Indies (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -59,6 +74,11 @@ https://a.swinapi.sbs/hls/IOIOIOQQ.m3u8
 #EXTVLCOPT:http-origin=https://vividmosaica.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://d11.epicquesthero.com:999/hls/do12.m3u8?md5=D6EbR2JlBbCXpgc5MOSikQ&expires=1769716858
+#EXTINF:-1 tvg-chno="34" tvg-id="Live.Event.us" tvg-name="[France Rugby Pro D2] US Oyonnax vs Vannes (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[France Rugby Pro D2] US Oyonnax vs Vannes (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://205.237.105.46/hls/OOOOQQQQQ.m3u8
 #EXTINF:-1 tvg-chno="35" tvg-id="Golf.Dummy.us" tvg-name="[Golf PGA] Golf PGA Farmers Insurance Open (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/10/PGA-Tour-Logo-500x281.png" group-title="Live Events",[Golf PGA] Golf PGA Farmers Insurance Open (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -229,21 +249,6 @@ https://a.swinapi.sbs/hls/IOIOIO.m3u8
 #EXTVLCOPT:http-origin=https://vividmosaica.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://d15.epicquesthero.com:999/hls/do21.m3u8?md5=eBtIQF4IV_rcRkboxJmnTg&expires=1769716861
-#EXTINF:-1 tvg-chno="167" tvg-id="Live.Event.us" tvg-name="[Saudi Arabia Pro League] Al Quadisiya vs Al Hilal (SPORT9)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Saudi Arabia Pro League] Al Quadisiya vs Al Hilal (SPORT9)
-#EXTVLCOPT:http-referrer=https://vividmosaica.com/
-#EXTVLCOPT:http-origin=https://vividmosaica.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://d11.epicquesthero.com:999/hls/do82.m3u8?md5=VLUEwKVaYA--RAs2s0D86A&expires=1769716854
-#EXTINF:-1 tvg-chno="169" tvg-id="Soccer.Dummy.us" tvg-name="[Saudi Premier League] Al Hazem vs Al Shabab (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png" group-title="Live Events",[Saudi Premier League] Al Hazem vs Al Shabab (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://a.swinapi.sbs/hls/bnbnbnQQ.m3u8
-#EXTINF:-1 tvg-chno="170" tvg-id="Soccer.Dummy.us" tvg-name="[Saudi Premier League] Al Qadsiah vs Al Hilal (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png" group-title="Live Events",[Saudi Premier League] Al Qadsiah vs Al Hilal (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://a.swinapi.sbs/hls/bnbnbnQQQ.m3u8
 #EXTINF:-1 tvg-chno="173" tvg-id="Soccer.Dummy.us" tvg-name="[Saudi Pro League] Al-Qadsiah vs Al-Hilal (iSTRMEAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png" group-title="Live Events",[Saudi Pro League] Al-Qadsiah vs Al-Hilal (iSTRMEAST)
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
 #EXTVLCOPT:http-origin=https://gooz.aapmains.net
@@ -329,6 +334,186 @@ https://d13.epicquesthero.com:999/hls/do76.m3u8?md5=QS6pB93330TVxsZ-4Nx3HQ&expir
 #EXTVLCOPT:http-origin=https://vividmosaica.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://d11.epicquesthero.com:999/hls/do74.m3u8?md5=9LMUEc4blvOQ7YxlMCho7g&expires=1769716874
+#EXTINF:-1 tvg-chno="193" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Aston Villa vs Salzburg 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Aston Villa vs Salzburg 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://b.vbdgfny.shop/hls/bhbhbhqqq.m3u8
+#EXTINF:-1 tvg-chno="194" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Aston Villa vs Salzburg 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Aston Villa vs Salzburg 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://205.237.107.90/hls/bhbhbhqqq.m3u8
+#EXTINF:-1 tvg-chno="195" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Betis vs Feyenoord 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Betis vs Feyenoord 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://b.vbayisap.shop/hls/BABABAQ.m3u8
+#EXTINF:-1 tvg-chno="196" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Betis vs Feyenoord 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Betis vs Feyenoord 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://205.237.107.90/hls/BABABAQ.m3u8
+#EXTINF:-1 tvg-chno="197" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Celtic vs FC Utrecht 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Celtic vs FC Utrecht 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://f.ulumoffds.shop/hls/jyyyq.m3u8
+#EXTINF:-1 tvg-chno="198" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Celtic vs FC Utrecht 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Celtic vs FC Utrecht 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://205.237.105.46/hls/jyyyq.m3u8
+#EXTINF:-1 tvg-chno="199" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Crvena zvezda vs Celta Vigo 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Crvena zvezda vs Celta Vigo 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://d.uykyukrr.shop/hls/sasasa.m3u8
+#EXTINF:-1 tvg-chno="200" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Crvena zvezda vs Celta Vigo 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Crvena zvezda vs Celta Vigo 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://37.49.225.198/hls/sasasa.m3u8
+#EXTINF:-1 tvg-chno="201" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] FC Basel vs Viktoria Plzen 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] FC Basel vs Viktoria Plzen 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://d.uykyukrr.shop/hls/sasasaQ.m3u8
+#EXTINF:-1 tvg-chno="202" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] FC Basel vs Viktoria Plzen 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] FC Basel vs Viktoria Plzen 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://37.49.225.198/hls/sasasaQ.m3u8
+#EXTINF:-1 tvg-chno="203" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] FC Porto vs Rangers 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] FC Porto vs Rangers 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://f.ulumoffds.shop/hls/jyyyqq.m3u8
+#EXTINF:-1 tvg-chno="204" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] FC Porto vs Rangers 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] FC Porto vs Rangers 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://205.237.105.46/hls/jyyyqq.m3u8
+#EXTINF:-1 tvg-chno="205" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] FCSB vs Fenerbahce 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] FCSB vs Fenerbahce 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://b.vbayisap.shop/hls/BABABA.m3u8
+#EXTINF:-1 tvg-chno="206" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] FCSB vs Fenerbahce 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] FCSB vs Fenerbahce 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://205.237.107.90/hls/BABABA.m3u8
+#EXTINF:-1 tvg-chno="207" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] GA Eagles vs Sporting Braga 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] GA Eagles vs Sporting Braga 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://d.uykyukrr.shop/hls/sasasaQQ.m3u8
+#EXTINF:-1 tvg-chno="208" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] GA Eagles vs Sporting Braga 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] GA Eagles vs Sporting Braga 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://37.49.225.198/hls/sasasaQQ.m3u8
+#EXTINF:-1 tvg-chno="209" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Genk vs Malmo FF 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Genk vs Malmo FF 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://205.237.107.90/hls/bhbhbhqq.m3u8
+#EXTINF:-1 tvg-chno="210" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Genk vs Malmo FF 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Genk vs Malmo FF 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://b.vbdgfny.shop/hls/bhbhbhqq.m3u8
+#EXTINF:-1 tvg-chno="211" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Lille vs Freiburg 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Lille vs Freiburg 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://b.vbayisap.shop/hls/BABABAQQ.m3u8
+#EXTINF:-1 tvg-chno="212" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Lille vs Freiburg 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Lille vs Freiburg 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://205.237.107.90/hls/BABABAQQ.m3u8
+#EXTINF:-1 tvg-chno="213" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Ludogorets vs Nice 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Ludogorets vs Nice 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://d.uykyukrr.shop/hls/sasasaQQQ.m3u8
+#EXTINF:-1 tvg-chno="214" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Ludogorets vs Nice 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Ludogorets vs Nice 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://37.49.225.198/hls/sasasaQQQ.m3u8
+#EXTINF:-1 tvg-chno="215" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Lyon vs PAOK 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Lyon vs PAOK 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://205.237.107.90/hls/bhbhbhq.m3u8
+#EXTINF:-1 tvg-chno="216" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Lyon vs PAOK 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Lyon vs PAOK 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://b.vbdgfny.shop/hls/bhbhbhq.m3u8
+#EXTINF:-1 tvg-chno="217" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Maccabi Tel Aviv vs Bologna 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Maccabi Tel Aviv vs Bologna 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://b.vbayisap.shop/hls/BABABAQQQ.m3u8
+#EXTINF:-1 tvg-chno="218" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Maccabi Tel Aviv vs Bologna 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Maccabi Tel Aviv vs Bologna 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://205.237.107.90/hls/BABABAQQQ.m3u8
+#EXTINF:-1 tvg-chno="219" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Midtjylland vs Dinamo Zagreb 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Midtjylland vs Dinamo Zagreb 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://d.uykyukrr.shop/hls/sasasaQQQQ.m3u8
+#EXTINF:-1 tvg-chno="220" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Midtjylland vs Dinamo Zagreb 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Midtjylland vs Dinamo Zagreb 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://37.49.225.198/hls/sasasaQQQQ.m3u8
+#EXTINF:-1 tvg-chno="221" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Nottingham vs Ferencvaros 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Nottingham vs Ferencvaros 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://b.vbdgfny.shop/hls/bhbhbh.m3u8
+#EXTINF:-1 tvg-chno="222" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Nottingham vs Ferencvaros 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Nottingham vs Ferencvaros 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://205.237.107.90/hls/bhbhbh.m3u8
+#EXTINF:-1 tvg-chno="223" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Panathinaikos vs AS Roma 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Panathinaikos vs AS Roma 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://205.237.105.46/hls/jyyy.m3u8
+#EXTINF:-1 tvg-chno="224" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Panathinaikos vs AS Roma 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Panathinaikos vs AS Roma 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://f.ulumoffds.shop/hls/jyyy.m3u8
+#EXTINF:-1 tvg-chno="225" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Sturm Graz vs Brann 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Sturm Graz vs Brann 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://b.vbayisap.shop/hls/BABABAQQQQ.m3u8
+#EXTINF:-1 tvg-chno="226" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Sturm Graz vs Brann 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Sturm Graz vs Brann 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://205.237.107.90/hls/BABABAQQQQ.m3u8
+#EXTINF:-1 tvg-chno="227" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Stuttgart vs Young Boy 2s (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Stuttgart vs Young Boy 2s (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://37.49.225.198/hls/sasasaQQQQQ.m3u8
+#EXTINF:-1 tvg-chno="228" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] Stuttgart vs Young Boys 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] Stuttgart vs Young Boys 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://d.uykyukrr.shop/hls/sasasaQQQQQ.m3u8
 #EXTINF:-1 tvg-chno="229" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Europa League] UEFA Europa League Simulcast 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[UEFA Europa League] UEFA Europa League Simulcast 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
