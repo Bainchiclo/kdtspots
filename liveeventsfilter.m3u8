@@ -19,11 +19,6 @@ https://a.voezvoezv.shop/hls/SASASAQQQ.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://a.voezvoezv.shop/hls/DEDEDEQQ.m3u8
-#EXTINF:-1 tvg-chno="11" tvg-id="Live.Event.us" tvg-name="[Chile Liga de Primera] Everton vs Union La Calera (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Chile Liga de Primera] Everton vs Union La Calera (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://a.voezvoezv.shop/hls/SASASAQQQQQQ.m3u8
 #EXTINF:-1 tvg-chno="26" tvg-id="Golf.Dummy.us" tvg-name="[Golf] Golf TGL : Atlanta Drive GC vs Jupiter Links Golf Club (FAWA)" tvg-logo="https://i.gyazo.com/14a883f22796f631e6f97c34dbeb6ada.png" group-title="Live Events",[Golf] Golf TGL : Atlanta Drive GC vs Jupiter Links Golf Club (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -99,6 +94,11 @@ https://play.streameast.asia/playlist/stream_nba4.m3u8?md5=tsB3vJB7BVdttIb9RKTCi
 #EXTVLCOPT:http-origin=https://hiteasport.info/embed/nba3.php
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://play.streameast.asia/playlist/stream_nba3.m3u8?md5=AXsY7Ttt_sWgoW4CtJQFeg&expires=1770075045
+#EXTINF:-1 tvg-chno="52" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Minnesota Timberwolves @ Memphis Grizzlies (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Minnesota Timberwolves @ Memphis Grizzlies (TVPASS)
+#EXTVLCOPT:http-referrer=https://tvpass.org
+#EXTVLCOPT:http-origin=https://tvpass.org
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://origin.thetvapp.to/hls/NBA02/mono.m3u8
 #EXTINF:-1 tvg-chno="56" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] New Orleans Pelicans @ Charlotte Hornets (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] New Orleans Pelicans @ Charlotte Hornets (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
@@ -159,16 +159,6 @@ http://origin.thetvapp.to/hls/NHL31/mono.m3u8
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NHL01/mono.m3u8
-#EXTINF:-1 tvg-chno="108" tvg-id="Soccer.Dummy.us" tvg-name="[Portugal Primeira Liga] Casa Pia vs FC Porto 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/14.png" group-title="Live Events",[Portugal Primeira Liga] Casa Pia vs FC Porto 1 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://a.voezvoezv.shop/hls/SASASAQQQQ.m3u8
-#EXTINF:-1 tvg-chno="109" tvg-id="Soccer.Dummy.us" tvg-name="[Portugal Primeira Liga] Casa Pia vs FC Porto 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/14.png" group-title="Live Events",[Portugal Primeira Liga] Casa Pia vs FC Porto 2 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://205.237.104.40/hls/SASASAQQQQ.m3u8
 #EXTINF:-1 tvg-chno="114" tvg-id="Soccer.Dummy.us" tvg-name="[Premier League] Sunderland vs Burnley (iSTRMEAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Live Events",[Premier League] Sunderland vs Burnley (iSTRMEAST)
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
 #EXTVLCOPT:http-origin=https://gooz.aapmains.net
