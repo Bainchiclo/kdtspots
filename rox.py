@@ -5,7 +5,9 @@ from urllib.parse import urljoin, urlparse
 from requests.exceptions import RequestException
 import logging
 
+# --- CONFIGURATION ---
 BASE_URL = "https://roxiestreams.info"
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
 
 TV_INFO = {
     "ppv": ("PPV.EVENTS.Dummy.us", "http://drewlive24.duckdns.org:9000/Logos/PPV.png", "PPV"),
@@ -24,15 +26,18 @@ TV_INFO = {
 DISCOVERY_KEYWORDS = list(TV_INFO.keys()) + ['streams']
 SECTION_BLOCKLIST = ['olympia']
 
+# --- SESSION SETUP ---
 SESSION = requests.Session()
 SESSION.headers.update({
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-    'Referer': BASE_URL
+    'User-Agent': USER_AGENT,
+    'Referer': BASE_URL,
+    'Origin': BASE_URL
 })
 
 M3U8_REGEX = re.compile(r'https?://[^\s"\'<>`]+\.m3u8')
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+# --- FUNCTIONS ---
 
 def discover_sections(base_url):
     """Finds main category links (e.g., /nba, /ufc)."""
@@ -152,9 +157,16 @@ def main():
 
             for link in m3u8_links:
                 if check_stream_status(link):
+                    # EXTM3U Header Info
                     playlist_lines.append(
                         f'#EXTINF:-1 tvg-logo="{logo}" tvg-id="{tv_id}" group-title="Roxiestreams",{event_title}'
                     )
+                    # VLC Specific Options (Referrer, Origin, and updated User-Agent)
+                    playlist_lines.append(f'#EXTVLCOPT:http-referrer={BASE_URL}')
+                    playlist_lines.append(f'#EXTVLCOPT:http-origin={BASE_URL}')
+                    playlist_lines.append(f'#EXTVLCOPT:http-user-agent={USER_AGENT}')
+                    
+                    # Stream Link
                     playlist_lines.append(link)
                     valid_count += 1
 
@@ -166,15 +178,11 @@ def main():
             f.write("\n".join(playlist_lines))
         logging.info(f"\n--- SUCCESS ---")
         logging.info(f"Playlist saved as {output_filename}")
-        logging.info(f"Total valid streams found: {(len(playlist_lines) - 1) // 2}")
+        # Note: Divide by 5 now because each stream entry uses 5 lines (EXTINF, 3 OPT lines, 1 URL)
+        logging.info(f"Total valid streams found: {(len(playlist_lines) - 1) // 5}")
     except IOError as e:
         logging.error(f"Failed to write file {output_filename}: {e}")
 
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
