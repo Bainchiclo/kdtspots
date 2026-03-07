@@ -30,8 +30,7 @@ SECTION_BLOCKLIST = ['olympia']
 SESSION = requests.Session()
 SESSION.headers.update({
     'User-Agent': USER_AGENT,
-    'Referer': BASE_URL,
-    'Origin': BASE_URL
+    'Referer': BASE_URL
 })
 
 M3U8_REGEX = re.compile(r'https?://[^\s"\'<>`]+\.m3u8')
@@ -161,9 +160,7 @@ def main():
                     playlist_lines.append(
                         f'#EXTINF:-1 tvg-logo="{logo}" tvg-id="{tv_id}" group-title="Roxiestreams",{event_title}'
                     )
-                    # VLC Specific Options (Referrer, Origin, and updated User-Agent)
-                    playlist_lines.append(f'#EXTVLCOPT:http-referrer={BASE_URL}')
-                    playlist_lines.append(f'#EXTVLCOPT:http-origin={BASE_URL}')
+                    # Updated User-Agent only
                     playlist_lines.append(f'#EXTVLCOPT:http-user-agent={USER_AGENT}')
                     
                     # Stream Link
@@ -178,8 +175,8 @@ def main():
             f.write("\n".join(playlist_lines))
         logging.info(f"\n--- SUCCESS ---")
         logging.info(f"Playlist saved as {output_filename}")
-        # Note: Divide by 5 now because each stream entry uses 5 lines (EXTINF, 3 OPT lines, 1 URL)
-        logging.info(f"Total valid streams found: {(len(playlist_lines) - 1) // 5}")
+        # Note: Divide by 3 because each stream entry uses 3 lines (EXTINF, OPT line, URL)
+        logging.info(f"Total valid streams found: {(len(playlist_lines) - 1) // 3}")
     except IOError as e:
         logging.error(f"Failed to write file {output_filename}: {e}")
 
