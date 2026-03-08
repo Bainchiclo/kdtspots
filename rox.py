@@ -7,6 +7,7 @@ import logging
 
 # --- CONFIGURATION ---
 BASE_URL = "https://roxiestreams.info"
+# Standard UA used for discovery and status checks
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
 
 TV_INFO = {
@@ -160,8 +161,11 @@ def main():
                     playlist_lines.append(
                         f'#EXTINF:-1 tvg-logo="{logo}" tvg-id="{tv_id}" group-title="Roxiestreams",{event_title}'
                     )
-                    # Updated User-Agent only
-                    playlist_lines.append(f'#EXTVLCOPT:http-user-agent={USER_AGENT}')
+                    
+                    # Added Specific VLC Header Options
+                    playlist_lines.append('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36')
+                    playlist_lines.append('#EXTVLCOPT:http-referrer=https://roxiestreams.info/')
+                    playlist_lines.append('#EXTVLCOPT:http-origin=https://roxiestreams.info')
                     
                     # Stream Link
                     playlist_lines.append(link)
@@ -175,8 +179,10 @@ def main():
             f.write("\n".join(playlist_lines))
         logging.info(f"\n--- SUCCESS ---")
         logging.info(f"Playlist saved as {output_filename}")
-        # Note: Divide by 3 because each stream entry uses 3 lines (EXTINF, OPT line, URL)
-        logging.info(f"Total valid streams found: {(len(playlist_lines) - 1) // 3}")
+        
+        # Calculation for log: (Total lines - 1 header) divided by 5 lines per entry (INF, 3 OPTs, URL)
+        count = (len(playlist_lines) - 1) // 5
+        logging.info(f"Total valid streams found: {count}")
     except IOError as e:
         logging.error(f"Failed to write file {output_filename}: {e}")
 
