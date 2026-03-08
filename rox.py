@@ -1,190 +1,161 @@
 import asyncio
-import os
-from functools import partial
+import logging
+from datetime import datetime, timedelta, timezone
 from urllib.parse import urljoin
 
-from playwright.async_api import Browser, Page, TimeoutError
+from playwright.async_api import async_playwright, Page, TimeoutError
 from selectolax.parser import HTMLParser
 
-# Maintaining your internal imports
-from .utils import Cache, Time, get_logger, leagues, network
-
-log = get_logger(__name__)
-
-urls: dict[str, dict[str, str | float]] = {}
+# Setup Logging
+logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
+log = logging.getLogger("ROXIE")
 
 TAG = "ROXIE"
 BASE_URL = "https://roxiestreams.info"
-
-# Using your Cache classes
-CACHE_FILE = Cache(TAG, exp=10_800)
-HTML_CACHE = Cache(f"{TAG}-html", exp=19_800)
+# Global dictionary to hold results for the M3U8
+captured_streams: dict[str, str] = {}
 
 SPORT_URLS = {
+    "NBA": urljoin(BASE_URL, "nba"),
+    "MLB": urljoin(BASE_URL, "mlb"),
+    "NHL": urljoin(BASE_URL, "nhl"),
+    "Soccer": urljoin(BASE_URL, "soccer"),
+    "Fighting": urljoin(BASE_URL, "fighting"),
     "Racing": urljoin(BASE_URL, "motorsports"),
-} | {
-    sport: urljoin(BASE_URL, sport.lower())
-    for sport in ["Fighting", "MLB", "NBA", "NHL", "Soccer"]
 }
 
-async def refresh_html_cache(url: str, sport: str, now_ts: float) -> dict:
-    events = {}
-    if not (html_data := await network.request(url, log=log)):
-        return events
+async def get_active_events(context) -> list[dict]:
+    """Scrapes the sport pages and returns currently active or upcoming events."""
+    now = datetime.now(timezone.utc)
+    # Window: Started up to 4 hours ago, or starting in the next 15 mins
+    start_threshold = (now - timedelta(hours=4)).timestamp()
+    end_threshold = (now + timedelta(minutes=15)).timestamp()
+    
+    found_events = []
+    
+    for sport, url in SPORT_URLS.items():
+        log.info(f"Checking {sport} schedule...")
+        page = await context.new_page()
+        try:
+            await page.goto(url, wait_until="domcontentloaded", timeout=20000)
+            html = await page.content()
+            soup = HTMLParser(html)
+            
+            for row in soup.css("table#eventsTable tbody tr"):
+                a_tag = row.css_first("td a")
+                span = row.css_first("span.countdown-timer")
+                
+                if not a_tag or not span:
+                    continue
 
-    soup = HTMLParser(html_data.content)
-    for row in soup.css("table#eventsTable tbody tr"):
-        if not (a_tag := row.css_first("td a")):
-            continue
+                event_name = a_tag.text(strip=True)
+                href = a_tag.attributes.get("href")
+                data_start = span.attributes.get("data-start", "").rsplit(":", 1)[0]
 
-        event = a_tag.text(strip=True)
-        if not (href := a_tag.attributes.get("href")):
-            continue
+                if not href or not data_start:
+                    continue
 
-        if not (span := row.css_first("span.countdown-timer")):
-            continue
+                # Convert PST site time to timestamp
+                pst = timezone(timedelta(hours=-8))
+                try:
+                    event_dt = datetime.strptime(data_start, "%Y-%m-%d %H:%M").replace(tzinfo=pst)
+                    ts = event_dt.timestamp()
+                except ValueError:
+                    continue
 
-        data_start = span.attributes["data-start"].rsplit(":", 1)[0]
-        # Using your Time util
-        event_dt = Time.from_str(data_start, timezone="PST")
-        event_sport = next((k for k, v in SPORT_URLS.items() if v == url), "Live Event")
+                if start_threshold <= ts <= end_threshold:
+                    found_events.append({
+                        "sport": sport,
+                        "name": event_name,
+                        "link": urljoin(BASE_URL, href) if not href.startswith("http") else href
+                    })
+        except Exception as e:
+            log.warning(f"Error checking {sport}: {e}")
+        finally:
+            await page.close()
+            
+    return found_events
 
-        key = f"[{event_sport}] {event} ({TAG})"
-        events[key] = {
-            "sport": event_sport,
-            "event": event,
-            "link": href if href.startswith("http") else urljoin(BASE_URL, href),
-            "event_ts": event_dt.timestamp(),
-            "timestamp": now_ts,
-        }
-    return events
-
-async def process_event(url: str, url_num: int, page: Page) -> str | None:
-    captured: list[str] = []
+async def process_event(event_link: str, page: Page) -> str | None:
+    """Navigates to the stream page and intercepts the M3U8 request."""
+    captured_url = None
     got_one = asyncio.Event()
 
-    # Using your network handler
-    handler = partial(network.capture_req, captured=captured, got_one=got_one)
-    page.on("request", handler)
+    async def request_handler(request):
+        nonlocal captured_url
+        # Filter for master manifests
+        if ".m3u8" in request.url and "chunklist" not in request.url:
+            captured_url = request.url
+            got_one.set()
 
+    page.on("request", request_handler)
+    
     try:
-        # Increased timeout for NBA pages which can be heavy
-        resp = await page.goto(url, wait_until="domcontentloaded", timeout=12_000)
-        if not resp or resp.status != 200:
-            return None
+        await page.goto(event_link, wait_until="networkidle", timeout=20000)
+        
+        # Site often requires interaction to load the player
+        for selector in ["button.streambutton", ".play-wrapper", "#player"]:
+            try:
+                if await page.wait_for_selector(selector, timeout=4000):
+                    await page.click(selector, force=True, click_count=2)
+                    await asyncio.sleep(1)
+            except:
+                continue
 
-        # Roxie specific: Interaction often required to trigger manifest
-        try:
-            if btn := await page.wait_for_selector("button.streambutton:nth-of-type(1)", timeout=5000):
-                await btn.click(force=True, click_count=2)
-        except TimeoutError:
-            pass
-
-        try:
-            if player := await page.wait_for_selector(".play-wrapper", timeout=5000):
-                # Double click instead of triple to ensure play action
-                await player.click(force=True, click_count=2)
-        except TimeoutError:
-            pass
-
-        try:
-            # Wait for manifest capture
-            await asyncio.wait_for(got_one.wait(), timeout=10)
-            return captured[0]
-        except asyncio.TimeoutError:
-            return None
-
-    except Exception as e:
-        log.warning(f"URL {url_num}) Error: {e}")
+        # Wait for the network request to be captured
+        await asyncio.wait_for(got_one.wait(), timeout=12)
+        return captured_url
+    except:
         return None
     finally:
-        page.remove_listener("request", handler)
+        page.remove_listener("request", request_handler)
 
-async def get_events(cached_keys: list[str]) -> list[dict]:
-    now = Time.clean(Time.now())
-    if not (events := HTML_CACHE.load()):
-        log.info("Refreshing HTML cache")
-        tasks = [refresh_html_cache(url, sport, now.timestamp()) for sport, url in SPORT_URLS.items()]
-        results = await asyncio.gather(*tasks)
-        events = {k: v for data in results for k, v in data.items()}
-        HTML_CACHE.write(events)
-
-    live = []
-    # Generous 4-hour start window for active games
-    start_ts = (now.delta(hours=-4)).timestamp()
-    end_ts = (now.delta(minutes=5)).timestamp()
-
-    for k, v in events.items():
-        if k in cached_keys or not (start_ts <= v["event_ts"] <= end_ts):
-            continue
-        live.append(v)
-    return live
-
-def save_to_m3u8(filename="rox.m3u8"):
-    """Saves streams with the requested group-title=Roxiestreams"""
-    if not urls:
-        log.warning("No streams found to save.")
+def save_to_m3u8(streams: dict, filename="rox.m3u8"):
+    """Writes the results to a standard M3U8 file."""
+    if not streams:
+        log.warning("No streams captured. M3U8 not updated.")
         return
 
     m3u_lines = ["#EXTM3U"]
-    for name, data in urls.items():
-        if not (stream_url := data.get("url")):
-            continue
-
-        tvg_id = data.get("id", "Live.Event.us")
-        logo = data.get("logo", "")
-        
-        # Meta line with group-title
-        inf_line = f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{logo}" group-title="Roxiestreams",{name}'
-        m3u_lines.append(inf_line)
+    for name, stream_url in streams.items():
+        # Added group-title="Roxiestreams" as requested
+        m3u_lines.append(f'#EXTINF:-1 tvg-id="Live.Event.us" group-title="Roxiestreams",{name}')
         m3u_lines.append(stream_url)
-
+        
     with open(filename, "w", encoding="utf-8") as f:
         f.write("\n".join(m3u_lines))
-    log.info(f"Playlist saved to {filename} with group-title 'Roxiestreams'.")
+    log.info(f"Successfully saved {len(streams)} streams to {filename}")
 
-async def scrape(browser: Browser) -> None:
-    cached_data = CACHE_FILE.load()
-    urls.update({k: v for k, v in cached_data.items() if v.get("url")})
-
-    log.info(f"Loaded {len(urls)} cached events. Scraping {BASE_URL}")
-
-    events = await get_events(list(cached_data.keys()))
-    if events:
-        log.info(f"Processing {len(events)} new events")
-        async with network.event_context(browser) as context:
-            for i, ev in enumerate(events, start=1):
-                async with network.event_page(context) as page:
-                    m3u8 = await process_event(ev["link"], i, page)
-                    
-                    sport, event, ts = ev["sport"], ev["event"], ev["event_ts"]
-                    tvg_id, logo = leagues.get_tvg_info(sport, event)
-                    key = f"[{sport}] {event} ({TAG})"
-
-                    entry = {
-                        "url": m3u8,
-                        "logo": logo,
-                        "base": BASE_URL,
-                        "timestamp": ts,
-                        "id": tvg_id or "Live.Event.us",
-                        "link": ev["link"],
-                    }
-                    cached_data[key] = entry
-                    if m3u8:
-                        urls[key] = entry
+async def run_scraper():
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=True)
+        # Use a real user-agent to bypass basic bot detection
+        context = await browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+        )
         
-        CACHE_FILE.write(cached_data)
-    else:
-        log.info("No new events to process.")
+        log.info("Starting fresh scrape (Cache Disabled)")
+        events = await get_active_events(context)
+        
+        if not events:
+            log.info("No live events found at this time.")
+        else:
+            log.info(f"Processing {len(events)} events...")
+            for i, ev in enumerate(events, 1):
+                log.info(f"[{i}/{len(events)}] Pulling: {ev['name']}")
+                page = await context.new_page()
+                m3u8_link = await process_event(ev["link"], page)
+                await page.close()
+                
+                if m3u8_link:
+                    display_name = f"[{ev['sport']}] {ev['name']} ({TAG})"
+                    captured_streams[display_name] = m3u8_link
+                    log.info(f"Captured: {ev['name']}")
+                else:
+                    log.warning(f"Failed to capture: {ev['name']}")
 
-    save_to_m3u8()
+        save_to_m3u8(captured_streams)
+        await browser.close()
 
 if __name__ == "__main__":
-    # Example local runner (assumes playwright installed)
-    from playwright.async_api import async_playwright
-    async def main():
-        async with async_playwright() as p:
-            browser = await p.chromium.launch(headless=True)
-            await scrape(browser)
-            await browser.close()
-    asyncio.run(main())
+    asyncio.run(run_scraper())
