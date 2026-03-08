@@ -1,161 +1,185 @@
-import asyncio
+import requests
+import re
+from bs4 import BeautifulSoup
+from urllib.parse import urljoin, urlparse
+from requests.exceptions import RequestException
 import logging
-from datetime import datetime, timedelta, timezone
-from urllib.parse import urljoin
 
-from playwright.async_api import async_playwright, Page, TimeoutError
-from selectolax.parser import HTMLParser
-
-# Setup Logging
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-log = logging.getLogger("ROXIE")
-
-TAG = "ROXIE"
+# --- CONFIGURATION ---
 BASE_URL = "https://roxiestreams.info"
-# Global dictionary to hold results for the M3U8
-captured_streams: dict[str, str] = {}
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
 
-SPORT_URLS = {
-    "NBA": urljoin(BASE_URL, "nba"),
-    "MLB": urljoin(BASE_URL, "mlb"),
-    "NHL": urljoin(BASE_URL, "nhl"),
-    "Soccer": urljoin(BASE_URL, "soccer"),
-    "Fighting": urljoin(BASE_URL, "fighting"),
-    "Racing": urljoin(BASE_URL, "motorsports"),
+TV_INFO = {
+    "ppv": ("PPV.EVENTS.Dummy.us", "http://drewlive24.duckdns.org:9000/Logos/PPV.png", "PPV"),
+    "soccer": ("Soccer.Dummy.us", "http://drewlive24.duckdns.org:9000/Logos/Soccer.png", "Soccer"),
+    "ufc": ("UFC.Fight.Pass.Dummy.us", "http://drewlive24.duckdns.org:9000/Logos/CombatSports2.png", "UFC"),
+    "fighting": ("PPV.EVENTS.Dummy.us", "http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png", "Combat Sports"),
+    "nfl": ("Football.Dummy.us", "http://drewlive24.duckdns.org:9000/Logos/Maxx.png", "NFL"),
+    "nba": ("NBA.Basketball.Dummy.us", "https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg", "NBA"),
+    "mlb": ("MLB.Baseball.Dummy.us", "http://drewlive24.duckdns.org:9000/Logos/Baseball3.png", "MLB"),
+    "wwe": ("PPV.EVENTS.Dummy.us", "http://drewlive24.duckdns.org:9000/Logos/WWE2.png", "WWE"),
+    "f1": ("Racing.Dummy.us", "http://drewlive24.duckdns.org:9000/Logos/F1.png", "Formula 1"),
+    "motorsports": ("Racing.Dummy.us", "http://drewlive24.duckdns.org:9000/Logos/F1.png", "Motorsports"),
+    "nascar": ("Racing.Dummy.us", "http://drewlive24.duckdns.org:9000/Logos/Motorsports2.png", "NASCAR Cup Series"),
 }
 
-async def get_active_events(context) -> list[dict]:
-    """Scrapes the sport pages and returns currently active or upcoming events."""
-    now = datetime.now(timezone.utc)
-    # Window: Started up to 4 hours ago, or starting in the next 15 mins
-    start_threshold = (now - timedelta(hours=4)).timestamp()
-    end_threshold = (now + timedelta(minutes=15)).timestamp()
-    
-    found_events = []
-    
-    for sport, url in SPORT_URLS.items():
-        log.info(f"Checking {sport} schedule...")
-        page = await context.new_page()
-        try:
-            await page.goto(url, wait_until="domcontentloaded", timeout=20000)
-            html = await page.content()
-            soup = HTMLParser(html)
-            
-            for row in soup.css("table#eventsTable tbody tr"):
-                a_tag = row.css_first("td a")
-                span = row.css_first("span.countdown-timer")
-                
-                if not a_tag or not span:
-                    continue
+DISCOVERY_KEYWORDS = list(TV_INFO.keys()) + ['streams']
+SECTION_BLOCKLIST = ['olympia']
 
-                event_name = a_tag.text(strip=True)
-                href = a_tag.attributes.get("href")
-                data_start = span.attributes.get("data-start", "").rsplit(":", 1)[0]
+# --- SESSION SETUP ---
+SESSION = requests.Session()
+SESSION.headers.update({
+    'User-Agent': USER_AGENT,
+    'Referer': BASE_URL
+})
 
-                if not href or not data_start:
-                    continue
+M3U8_REGEX = re.compile(r'https?://[^\s"\'<>`]+\.m3u8')
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-                # Convert PST site time to timestamp
-                pst = timezone(timedelta(hours=-8))
-                try:
-                    event_dt = datetime.strptime(data_start, "%Y-%m-%d %H:%M").replace(tzinfo=pst)
-                    ts = event_dt.timestamp()
-                except ValueError:
-                    continue
+# --- FUNCTIONS ---
 
-                if start_threshold <= ts <= end_threshold:
-                    found_events.append({
-                        "sport": sport,
-                        "name": event_name,
-                        "link": urljoin(BASE_URL, href) if not href.startswith("http") else href
-                    })
-        except Exception as e:
-            log.warning(f"Error checking {sport}: {e}")
-        finally:
-            await page.close()
-            
-    return found_events
-
-async def process_event(event_link: str, page: Page) -> str | None:
-    """Navigates to the stream page and intercepts the M3U8 request."""
-    captured_url = None
-    got_one = asyncio.Event()
-
-    async def request_handler(request):
-        nonlocal captured_url
-        # Filter for master manifests
-        if ".m3u8" in request.url and "chunklist" not in request.url:
-            captured_url = request.url
-            got_one.set()
-
-    page.on("request", request_handler)
-    
+def discover_sections(base_url):
+    """Finds main category links (e.g., /nba, /ufc)."""
+    logging.info(f"Discovering sections on {base_url}...")
+    sections_found = []
     try:
-        await page.goto(event_link, wait_until="networkidle", timeout=20000)
-        
-        # Site often requires interaction to load the player
-        for selector in ["button.streambutton", ".play-wrapper", "#player"]:
-            try:
-                if await page.wait_for_selector(selector, timeout=4000):
-                    await page.click(selector, force=True, click_count=2)
-                    await asyncio.sleep(1)
-            except:
-                continue
+        resp = SESSION.get(base_url, timeout=10)
+        resp.raise_for_status()
+    except RequestException as e:
+        logging.error(f"Failed to fetch base URL {base_url}: {e}")
+        return []
 
-        # Wait for the network request to be captured
-        await asyncio.wait_for(got_one.wait(), timeout=12)
-        return captured_url
-    except:
-        return None
-    finally:
-        page.remove_listener("request", request_handler)
+    soup = BeautifulSoup(resp.text, 'html.parser')
+    discovered_urls = set()
 
-def save_to_m3u8(streams: dict, filename="rox.m3u8"):
-    """Writes the results to a standard M3U8 file."""
-    if not streams:
-        log.warning("No streams captured. M3U8 not updated.")
+    for a_tag in soup.find_all('a', href=True):
+        href = a_tag['href']
+        title = a_tag.get_text(strip=True)
+        if not href or href.startswith(('#', 'javascript:', 'mailto:')) or not title:
+            continue
+
+        abs_url = urljoin(base_url, href)
+
+        if any(blocked in abs_url.lower() for blocked in SECTION_BLOCKLIST):
+            continue
+
+        if (urlparse(abs_url).netloc == urlparse(base_url).netloc and
+                any(keyword in abs_url.lower() for keyword in DISCOVERY_KEYWORDS) and
+                abs_url not in discovered_urls):
+
+            discovered_urls.add(abs_url)
+            logging.info(f"  [Found] {title} -> {abs_url}")
+            sections_found.append((abs_url, title))
+
+    return sections_found
+
+
+def discover_event_links(section_url):
+    """Finds event links from each category page."""
+    events = set()
+    try:
+        resp = SESSION.get(section_url, timeout=10)
+        resp.raise_for_status()
+    except RequestException as e:
+        logging.warning(f"  Failed to fetch section page {section_url}: {e}")
+        return events
+
+    soup = BeautifulSoup(resp.text, 'html.parser')
+    event_table = soup.find('table', id='eventsTable')
+    if not event_table:
+        return events
+
+    for a_tag in event_table.find_all('a', href=True):
+        href = a_tag['href']
+        title = a_tag.get_text(strip=True)
+        if not href or not title:
+            continue
+        abs_url = urljoin(section_url, href)
+        if abs_url.startswith(BASE_URL):
+            events.add((abs_url, title))
+    return events
+
+
+def extract_m3u8_links(page_url):
+    """Extracts .m3u8 links from event page."""
+    links = set()
+    try:
+        resp = SESSION.get(page_url, timeout=10)
+        resp.raise_for_status()
+        links.update(M3U8_REGEX.findall(resp.text))
+    except RequestException as e:
+        logging.warning(f"    Failed to fetch event page {page_url}: {e}")
+    return links
+
+
+def check_stream_status(m3u8_url):
+    """Validates a .m3u8 stream."""
+    try:
+        resp = SESSION.head(m3u8_url, timeout=5, allow_redirects=True)
+        return resp.status_code == 200
+    except RequestException:
+        return False
+
+
+def get_tv_info(url):
+    """Matches a section URL to tvg-id, logo, and smart name."""
+    for key, (tvgid, logo, group_name) in TV_INFO.items():
+        if key in url.lower():
+            return tvgid, logo, group_name
+    return ("Unknown.Dummy.us", "", "Misc")
+
+
+def main():
+    playlist_lines = ["#EXTM3U"]
+
+    sections = list(discover_sections(BASE_URL))
+    if not sections:
+        logging.error("No sections discovered.")
         return
 
-    m3u_lines = ["#EXTM3U"]
-    for name, stream_url in streams.items():
-        # Added group-title="Roxiestreams" as requested
-        m3u_lines.append(f'#EXTINF:-1 tvg-id="Live.Event.us" group-title="Roxiestreams",{name}')
-        m3u_lines.append(stream_url)
-        
-    with open(filename, "w", encoding="utf-8") as f:
-        f.write("\n".join(m3u_lines))
-    log.info(f"Successfully saved {len(streams)} streams to {filename}")
+    logging.info(f"Found {len(sections)} sections. Scraping for events...")
 
-async def run_scraper():
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
-        # Use a real user-agent to bypass basic bot detection
-        context = await browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-        )
-        
-        log.info("Starting fresh scrape (Cache Disabled)")
-        events = await get_active_events(context)
-        
-        if not events:
-            log.info("No live events found at this time.")
-        else:
-            log.info(f"Processing {len(events)} events...")
-            for i, ev in enumerate(events, 1):
-                log.info(f"[{i}/{len(events)}] Pulling: {ev['name']}")
-                page = await context.new_page()
-                m3u8_link = await process_event(ev["link"], page)
-                await page.close()
-                
-                if m3u8_link:
-                    display_name = f"[{ev['sport']}] {ev['name']} ({TAG})"
-                    captured_streams[display_name] = m3u8_link
-                    log.info(f"Captured: {ev['name']}")
-                else:
-                    log.warning(f"Failed to capture: {ev['name']}")
+    for section_url, section_title in sections:
+        logging.info(f"\n--- Processing Section: {section_title} ({section_url}) ---")
 
-        save_to_m3u8(captured_streams)
-        await browser.close()
+        tv_id, logo, group_name = get_tv_info(section_url)
+        event_links = discover_event_links(section_url)
+
+        if not event_links:
+            logging.info(f"  No event sub-pages found. Scraping directly.")
+            event_links = {(section_url, section_title)}
+
+        valid_count = 0
+        for event_url, event_title in event_links:
+            logging.info(f"  Scraping: {event_title}")
+            m3u8_links = extract_m3u8_links(event_url)
+
+            for link in m3u8_links:
+                if check_stream_status(link):
+                    # EXTM3U Header Info
+                    playlist_lines.append(
+                        f'#EXTINF:-1 tvg-logo="{logo}" tvg-id="{tv_id}" group-title="Roxiestreams",{event_title}'
+                    )
+                    # Updated User-Agent only
+                    playlist_lines.append(f'#EXTVLCOPT:http-user-agent={USER_AGENT}')
+                    
+                    # Stream Link
+                    playlist_lines.append(link)
+                    valid_count += 1
+
+        logging.info(f"  Added {valid_count} valid streams for {group_name} section.")
+
+    output_filename = "rox.m3u8"
+    try:
+        with open(output_filename, "w", encoding="utf-8") as f:
+            f.write("\n".join(playlist_lines))
+        logging.info(f"\n--- SUCCESS ---")
+        logging.info(f"Playlist saved as {output_filename}")
+        # Note: Divide by 3 because each stream entry uses 3 lines (EXTINF, OPT line, URL)
+        logging.info(f"Total valid streams found: {(len(playlist_lines) - 1) // 3}")
+    except IOError as e:
+        logging.error(f"Failed to write file {output_filename}: {e}")
+
 
 if __name__ == "__main__":
-    asyncio.run(run_scraper())
+    main()
