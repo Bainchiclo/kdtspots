@@ -44,26 +44,6 @@ https://onebot3c.s3.us-east-1.amazonaws.com/barcelona_480p30.m3u8
 #EXTVLCOPT:http-origin=https://24start.net/homes/blog3/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://24start.net/s3.php
-#EXTINF:-1 tvg-chno="174" tvg-id="Live.Event.us" tvg-name="[Live Event] Le Havre vs Lyon (PAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Le Havre vs Lyon (PAWA)
-#EXTVLCOPT:http-referrer=https://pawastreams.net/le-havre-vs-lyon-old/101622/
-#EXTVLCOPT:http-origin=https://pawastreams.net/le-havre-vs-lyon-old/101622/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://lb.buzztip.site/l1/index.m3u8?token=5fc9a02c3bfd6d34c0d38a116766b8d265fc78c7-926abeac257bb554e76dc614b043044d-1773586562-1773575762
-#EXTINF:-1 tvg-chno="175" tvg-id="Live.Event.us" tvg-name="[Live Event] Le Havre vs Lyon t (PAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Le Havre vs Lyon t (PAWA)
-#EXTVLCOPT:http-referrer=https://pawastreams.net/le-havre-vs-lyon-t/101740/
-#EXTVLCOPT:http-origin=https://pawastreams.net/le-havre-vs-lyon-t/101740/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://lb.buzztip.site/l1/index.m3u8?token=253369f53e3c98d0724303f659db6e825ac46143-20431e65a2411f4ea787164b911b5994-1773586562-1773575762
-#EXTINF:-1 tvg-chno="186" tvg-id="Live.Event.us" tvg-name="[Live Event] Strasbourg vs Paris (PAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Strasbourg vs Paris (PAWA)
-#EXTVLCOPT:http-referrer=https://pawastreams.net/strasbourg-vs-paris-old/101624/
-#EXTVLCOPT:http-origin=https://pawastreams.net/strasbourg-vs-paris-old/101624/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://lb.buzztip.site/l1/index.m3u8?token=60df0d3526a6ac97ce2f8fdb35a8b989316bf5c7-1b897960e2a8251952a6c61e06c30911-1773586560-1773575760
-#EXTINF:-1 tvg-chno="187" tvg-id="Live.Event.us" tvg-name="[Live Event] Strasbourg vs Paris t (PAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Strasbourg vs Paris t (PAWA)
-#EXTVLCOPT:http-referrer=https://pawastreams.net/strasbourg-vs-paris-t/101738/
-#EXTVLCOPT:http-origin=https://pawastreams.net/strasbourg-vs-paris-t/101738/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://lb.buzztip.site/l1/index.m3u8?token=cc209009f94639adeecc505abb14475abd73bf7f-75c46e914d845bd8c6f05900e19bfd21-1773586560-1773575760
 #EXTINF:-1 tvg-chno="190" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Athletics @ Cleveland Guardians (TVAPP)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Athletics @ Cleveland Guardians (TVAPP)
 #EXTVLCOPT:http-referrer=https://thetvapp.to
 #EXTVLCOPT:http-origin=https://thetvapp.to
@@ -329,11 +309,6 @@ http://origin.thetvapp.to/hls/NHL17/mono.m3u8
 #EXTVLCOPT:http-origin=http://volokit.xyz/lives/florida-panthers-at-seattle-kraken-home/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://watcharena.xyz/hls/97.m3u8
-#EXTINF:-1 tvg-chno="274" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Maple Leafs vs Wild (WEBCAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Maple Leafs vs Wild (WEBCAST)
-#EXTVLCOPT:http-referrer=https://slapstreams.com
-#EXTVLCOPT:http-origin=https://slapstreams.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://webcast-cdn.b-cdn.net/newz/newz/105.m3u8
 #EXTINF:-1 tvg-chno="275" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Nashville Predators @ Edmonton Oilers (TVAPP)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Nashville Predators @ Edmonton Oilers (TVAPP)
 #EXTVLCOPT:http-referrer=https://thetvapp.to
 #EXTVLCOPT:http-origin=https://thetvapp.to
