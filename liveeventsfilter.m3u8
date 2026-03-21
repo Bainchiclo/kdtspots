@@ -99,6 +99,11 @@ http://origin.thetvapp.to/hls/MLB009/mono.m3u8
 #EXTVLCOPT:http-origin=https://mlbwebcast.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://webcast-cdn.b-cdn.net/newz/newz/237.m3u8
+#EXTINF:-1 tvg-chno="87" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Red Sox vs Rays (WEBCAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Red Sox vs Rays (WEBCAST)
+#EXTVLCOPT:http-referrer=https://mlbwebcast.com
+#EXTVLCOPT:http-origin=https://mlbwebcast.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://webcast-cdn.b-cdn.net/newz/newz/115.m3u8
 #EXTINF:-1 tvg-chno="89" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Rockies vs Padres (WEBCAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Rockies vs Padres (WEBCAST)
 #EXTVLCOPT:http-referrer=https://mlbwebcast.com
 #EXTVLCOPT:http-origin=https://mlbwebcast.com
@@ -264,11 +269,11 @@ https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/7642cd
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/7e11ffec-28a2-47db-9851-4b014fca09a8/master.m3u8
-#EXTINF:-1 tvg-chno="188" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Anaheim Ducks @ Utah Mammoth (TVAPP)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Anaheim Ducks @ Utah Mammoth (TVAPP)
-#EXTVLCOPT:http-referrer=https://thetvapp.to
-#EXTVLCOPT:http-origin=https://thetvapp.to
+#EXTINF:-1 tvg-chno="191" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Avalanche vs Blackhawks (WEBCAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Avalanche vs Blackhawks (WEBCAST)
+#EXTVLCOPT:http-referrer=https://slapstreams.com
+#EXTVLCOPT:http-origin=https://slapstreams.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://origin.thetvapp.to/hls/NHL07/mono.m3u8
+https://webcast-cdn.b-cdn.net/newz/newz/85.m3u8
 #EXTINF:-1 tvg-chno="194" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Calgary Flames vs Florida Panthers (iSTRMEAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Calgary Flames vs Florida Panthers (iSTRMEAST)
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
 #EXTVLCOPT:http-origin=https://gooz.aapmains.net
@@ -284,21 +289,11 @@ http://origin.thetvapp.to/hls/NHLNetwork/mono.m3u8
 #EXTVLCOPT:http-origin=https://gooz.aapmains.net
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://chatgpt.hereisman.net/playlist/47594/load-playlist
-#EXTINF:-1 tvg-chno="198" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Colorado Avalanche @ Chicago Blackhawks (TVAPP)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Colorado Avalanche @ Chicago Blackhawks (TVAPP)
-#EXTVLCOPT:http-referrer=https://thetvapp.to
-#EXTVLCOPT:http-origin=https://thetvapp.to
+#EXTINF:-1 tvg-chno="205" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Hurricanes vs Maple Leafs (WEBCAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Hurricanes vs Maple Leafs (WEBCAST)
+#EXTVLCOPT:http-referrer=https://slapstreams.com
+#EXTVLCOPT:http-origin=https://slapstreams.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://origin.thetvapp.to/hls/NHL08/mono.m3u8
-#EXTINF:-1 tvg-chno="202" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Florida Panthers @ Calgary Flames (TVAPP)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Florida Panthers @ Calgary Flames (TVAPP)
-#EXTVLCOPT:http-referrer=https://thetvapp.to
-#EXTVLCOPT:http-origin=https://thetvapp.to
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://origin.thetvapp.to/hls/NHL06/mono.m3u8
-#EXTINF:-1 tvg-chno="206" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] New Jersey Devils @ Washington Capitals (TVAPP)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] New Jersey Devils @ Washington Capitals (TVAPP)
-#EXTVLCOPT:http-referrer=https://thetvapp.to
-#EXTVLCOPT:http-origin=https://thetvapp.to
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://origin.thetvapp.to/hls/NHL03/mono.m3u8
+https://webcast-cdn.b-cdn.net/newz/newz/167.m3u8
 #EXTINF:-1 tvg-chno="210" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Utah Mammoth vs Anaheim Ducks (iSTRMEAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Utah Mammoth vs Anaheim Ducks (iSTRMEAST)
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
 #EXTVLCOPT:http-origin=https://gooz.aapmains.net
