@@ -274,11 +274,6 @@ https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/0addc8
 #EXTVLCOPT:http-origin=https://gooz.aapmains.net
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://chatgpt.hereisman.net/playlist/48334/load-playlist
-#EXTINF:-1 tvg-chno="249" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Blackhawks vs Kraken (STRMHUB)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Blackhawks vs Kraken (STRMHUB)
-#EXTVLCOPT:http-referrer=https://storytrench.net/
-#EXTVLCOPT:http-origin=https://storytrench.net/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://smarthard.click/hls/UVvjxYN6IY5Y/index.m3u8
 #EXTINF:-1 tvg-chno="251" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Boston Bruins vs Tampa Bay Lightning (LISTA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Boston Bruins vs Tampa Bay Lightning (LISTA)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=498
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=498
@@ -314,6 +309,11 @@ https://602.premiumjh.shop/nhl13.m3u8
 #EXTVLCOPT:http-origin=https://roxiestreams.su
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://602.premiumjh.shop/nhl15.m3u8
+#EXTINF:-1 tvg-chno="262" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Chicago Blackhawks vs Seattle Kraken (TVAPP)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Chicago Blackhawks vs Seattle Kraken (TVAPP)
+#EXTVLCOPT:http-referrer=https://thetvapp.to
+#EXTVLCOPT:http-origin=https://thetvapp.to
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://origin.thetvapp.to/hls/nhl13/mono.m3u8
 #EXTINF:-1 tvg-chno="263" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Colorado Avalanche vs Dallas Stars (LISTA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Colorado Avalanche vs Dallas Stars (LISTA)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=957
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=957
@@ -389,11 +389,6 @@ http://origin.thetvapp.to/hls/nhl14/mono.m3u8
 #EXTVLCOPT:http-origin=https://roxiestreams.su
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://602.premiumjh.shop/nhl8.m3u8
-#EXTINF:-1 tvg-chno="289" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] New York Islanders vs Carolina Hurricanes (TVAPP)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] New York Islanders vs Carolina Hurricanes (TVAPP)
-#EXTVLCOPT:http-referrer=https://thetvapp.to
-#EXTVLCOPT:http-origin=https://thetvapp.to
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://origin.thetvapp.to/hls/nhl10/mono.m3u8
 #EXTINF:-1 tvg-chno="295" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] San Jose Sharks vs Nashville Predators (iSTRMEAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] San Jose Sharks vs Nashville Predators (iSTRMEAST)
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
 #EXTVLCOPT:http-origin=https://gooz.aapmains.net
@@ -574,6 +569,11 @@ https://lista-preta-tv.site/live/ro/index.php?ch=PrimaSport3
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=949
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://lista-preta-tv.site/live/rs/index.php?ch=SPORTKLUB4RS
+#EXTINF:-1 tvg-chno="366" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Górnik Zabrze vs Cracovia Kraków (LISTA)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Górnik Zabrze vs Cracovia Kraków (LISTA)
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=478
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=478
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://lista-preta-tv.site/live/pl/index.php?ch=CANALSPORT3PL
 #EXTINF:-1 tvg-chno="367" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Hamburger SV vs Augsburg (LISTA)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Hamburger SV vs Augsburg (LISTA)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=1060
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=1060
@@ -589,6 +589,11 @@ https://lista-preta-tv.site/live/gr/index.php?ch=NOVASPORTS5
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=361
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://lista-preta-tv.site/live/es/index.php?ch=MLIGADECAMPEONES
+#EXTINF:-1 tvg-chno="372" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Jagiellonia Białystok vs Lech Poznań (LISTA)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Jagiellonia Białystok vs Lech Poznań (LISTA)
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=478
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=478
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://lista-preta-tv.site/live/pl/index.php?ch=CANALSPORT3PL
 #EXTINF:-1 tvg-chno="373" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Kaiserslautern vs Fortuna Düsseldorf (LISTA)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Kaiserslautern vs Fortuna Düsseldorf (LISTA)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=426
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=426
@@ -599,6 +604,11 @@ https://lista-preta-tv.site/live/bg/index.php?ch=NOVASPORTBG
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=315
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://lista-preta-tv.site/live/tr/index.php?ch=beINSPORTS3TR
+#EXTINF:-1 tvg-chno="375" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Katowice vs Wisła Płock (LISTA)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Katowice vs Wisła Płock (LISTA)
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=478
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=478
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://lista-preta-tv.site/live/pl/index.php?ch=CANALSPORT3PL
 #EXTINF:-1 tvg-chno="376" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Keçiörengücü vs Van BB (LISTA)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Keçiörengücü vs Van BB (LISTA)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=319
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=319
@@ -639,6 +649,11 @@ https://lista-preta-tv.site/live/us/index.php?ch=ESPN
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=645
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://lista-preta-tv.site/tv247V3/us/index.php?id=TUDN
+#EXTINF:-1 tvg-chno="389" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Montpellier vs Troyes (LISTA)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Montpellier vs Troyes (LISTA)
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=438
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=438
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://lista-preta-tv.site/live/cz/index.php?ch=NOVASPORT1CZ
 #EXTINF:-1 tvg-chno="390" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Nacional vs Estrela (LISTA)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Nacional vs Estrela (LISTA)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=273
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=273
@@ -649,6 +664,11 @@ https://lista-preta-tv.site/live/index.php?ch=SPT1
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=315
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://lista-preta-tv.site/live/tr/index.php?ch=beINSPORTS3TR
+#EXTINF:-1 tvg-chno="392" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Norrköping vs Värnamo (LISTA)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Norrköping vs Värnamo (LISTA)
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=564
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=564
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://lista-preta-tv.site/live/se/index.php?ch=TV4Fotball
 #EXTINF:-1 tvg-chno="393" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Oţelul vs Hermannstadt (LISTA)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Oţelul vs Hermannstadt (LISTA)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=529
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=529
