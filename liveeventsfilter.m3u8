@@ -204,11 +204,6 @@ http://origin.thetvapp.to/hls/mlb11/mono.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/d61e58a4-74df-4994-b951-a906fec05ebe/master.m3u8
-#EXTINF:-1 tvg-chno="163" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA Basketball] Chicago Bulls vs Orlando Magic 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Chicago Bulls vs Orlando Magic 1 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://195.178.110.2/hls/UUUU.m3u8
 #EXTINF:-1 tvg-chno="164" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA Basketball] Denver Nuggets vs Oklahoma City Thunder (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Denver Nuggets vs Oklahoma City Thunder (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -414,36 +409,6 @@ https://602.premiumjh.shop/nhl3.m3u8
 #EXTVLCOPT:http-origin=https://gooz.aapmains.net/new-stream-embed/48602?3newa=111
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://chatgpt.hereisman.net/playlist/48602/load-playlist
-#EXTINF:-1 tvg-chno="294" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[National Basketball Association] Golden State Warriors vs Sacramento Kings (STRMSGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[National Basketball Association] Golden State Warriors vs Sacramento Kings (STRMSGATE)
-#EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NBA14
-#EXTVLCOPT:http-origin=https://instream.click/jwp-us.php?stream=NBA14
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://instreams.live/US/NBA14/index.m3u8?st=Qk1t7FGL6OHSSQY0TnZFLQ&e=1775884815
-#EXTINF:-1 tvg-chno="295" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[National Basketball Association] LA Clippers vs Portland Trail Blazers (STRMSGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[National Basketball Association] LA Clippers vs Portland Trail Blazers (STRMSGATE)
-#EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NBA13
-#EXTVLCOPT:http-origin=https://instream.click/jwp-us.php?stream=NBA13
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://instreams.live/US/NBA13/index.m3u8?st=-WxchA6Jzto-Vfb2M7dBBQ&e=1775884814
-#EXTINF:-1 tvg-chno="296" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[National Basketball Association] Memphis Grizzlies vs Utah Jazz (STRMSGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[National Basketball Association] Memphis Grizzlies vs Utah Jazz (STRMSGATE)
-#EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NBA12
-#EXTVLCOPT:http-origin=https://instream.click/jwp-us.php?stream=NBA12
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://instreams.live/US/NBA12/index.m3u8?st=5ETWbjN8uTaRfCBbOstbRg&e=1775884812
-#EXTINF:-1 tvg-chno="297" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[National Basketball Association] Minnesota Timberwolves vs Houston Rockets (STRMSGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[National Basketball Association] Minnesota Timberwolves vs Houston Rockets (STRMSGATE)
-#EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NBA11
-#EXTVLCOPT:http-origin=https://instream.click/jwp-us.php?stream=NBA11
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://instreams.live/US/NBA11/index.m3u8?st=irsKy65zbz95Y4J6PzTXcA&e=1775884810
-#EXTINF:-1 tvg-chno="298" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[National Basketball Association] Oklahoma City Thunder vs Denver Nuggets (STRMSGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[National Basketball Association] Oklahoma City Thunder vs Denver Nuggets (STRMSGATE)
-#EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NBA10
-#EXTVLCOPT:http-origin=https://instream.click/jwp-us.php?stream=NBA10
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://instreams.live/US/NBA10/index.m3u8?st=hC5rfo-r2mdR6fWYFTqtlg&e=1775884809
-#EXTINF:-1 tvg-chno="299" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[National Basketball Association] Phoenix Suns vs Los Angeles Lakers (STRMSGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[National Basketball Association] Phoenix Suns vs Los Angeles Lakers (STRMSGATE)
-#EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NBA15
-#EXTVLCOPT:http-origin=https://instream.click/jwp-us.php?stream=NBA15
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://instreams.live/US/NBA15/index.m3u8?st=zd76CB1F2N_ciw0Hz3us-Q&e=1775884817
 #EXTINF:-1 tvg-chno="300" tvg-id="Live.Event.us" tvg-name="[OFC] One Fight Night 42 (iSTRMEAST)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[OFC] One Fight Night 42 (iSTRMEAST)
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net/new-stream-embed/48654?3newa=111
 #EXTVLCOPT:http-origin=https://gooz.aapmains.net/new-stream-embed/48654?3newa=111
