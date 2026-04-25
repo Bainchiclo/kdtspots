@@ -159,11 +159,6 @@ https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/c5feb2
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/335261b1-f968-48ef-bb60-4ff08c52a794/master.m3u8
-#EXTINF:-1 tvg-chno="209" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Houston Rockets vs Los Angeles Lakers (TSPRTK1)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Houston Rockets vs Los Angeles Lakers (TSPRTK1)
-#EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Houston-Rockets-vs-Los-Angeles-Lakers/66577
-#EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Houston-Rockets-vs-Los-Angeles-Lakers/66577
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://d121nihvgyypox.cloudfront.net/status/n2/fronts.woff2?173239
 #EXTINF:-1 tvg-chno="215" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Philadelphia 76ers vs Boston Celtics (TSPRTK1)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Philadelphia 76ers vs Boston Celtics (TSPRTK1)
 #EXTVLCOPT:http-referrer=https://live.totalsportek.fyi/Philadelphia-76ers-vs-Boston-Celtics/66670
 #EXTVLCOPT:http-origin=https://live.totalsportek.fyi/Philadelphia-76ers-vs-Boston-Celtics/66670
@@ -254,6 +249,11 @@ https://instreams.live/US/NHL2/index.m3u8
 #EXTVLCOPT:http-origin=https://gooz.aapmains.net/new-stream-embed/49493?ad=111
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://chatgpt.hereisman.net/playlist/49493/load-playlist
+#EXTINF:-1 tvg-chno="271" tvg-id="Racing.Dummy.us" tvg-name="[Racing] MotoGP - Coverage (ROXIE)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Racing] MotoGP - Coverage (ROXIE)
+#EXTVLCOPT:http-referrer=https://roxiestreams.su
+#EXTVLCOPT:http-origin=https://roxiestreams.su
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://602.marllonferreira.space/tnt2.m3u8
 #EXTINF:-1 tvg-chno="277" tvg-id="Soccer.Dummy.us" tvg-name="[Serie A] Napoli vs Cremonese (iSTRMEAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png" group-title="Live Events",[Serie A] Napoli vs Cremonese (iSTRMEAST)
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net/new-stream-embed/49490?ad=111
 #EXTVLCOPT:http-origin=https://gooz.aapmains.net/new-stream-embed/49490?ad=111
