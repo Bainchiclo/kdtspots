@@ -1,51 +1,156 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="57" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Boston Red Sox vs Toronto Blue Jays (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Boston Red Sox vs Toronto Blue Jays (ROXIE)
+#EXTINF:-1 tvg-chno="22" tvg-id="Live.Event.us" tvg-name="[Cycling] Cycling Tour of Turkey (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Cycling] Cycling Tour of Turkey (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://195.178.110.66/hls/UTTTV.m3u8
+#EXTINF:-1 tvg-chno="23" tvg-id="Live.Event.us" tvg-name="[Darts] Darts Players Championship 12 (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Darts] Darts Players Championship 12 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://195.178.110.66/hls/USSS.m3u8
+#EXTINF:-1 tvg-chno="39" tvg-id="Live.Event.us" tvg-name="[Horse Racing] Horse Racing 1 (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Horse Racing] Horse Racing 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://195.178.110.42/hls/HOOOQQQ.m3u8
+#EXTINF:-1 tvg-chno="40" tvg-id="Live.Event.us" tvg-name="[Horse Racing] Horse Racing 2 (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Horse Racing] Horse Racing 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://195.178.110.42/hls/HOOOQQ.m3u8
+#EXTINF:-1 tvg-chno="50" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Arizona Diamondbacks vs Milwaukee Brewers (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Arizona Diamondbacks vs Milwaukee Brewers (ROXIE)
 #EXTVLCOPT:http-referrer=https://roxiestreams.su
 #EXTVLCOPT:http-origin=https://roxiestreams.su
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://602.shoncine.com/mlb3.m3u8
-#EXTINF:-1 tvg-chno="63" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago Cubs vs San Diego Padres (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Chicago Cubs vs San Diego Padres (ROXIE)
-#EXTVLCOPT:http-referrer=https://roxiestreams.su
-#EXTVLCOPT:http-origin=https://roxiestreams.su
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://602.shoncine.com/mlb7.m3u8
-#EXTINF:-1 tvg-chno="69" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Angels vs Chicago White Sox (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Los Angeles Angels vs Chicago White Sox (ROXIE)
-#EXTVLCOPT:http-referrer=https://roxiestreams.su
-#EXTVLCOPT:http-origin=https://roxiestreams.su
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://602.shoncine.com/mlb5.m3u8
-#EXTINF:-1 tvg-chno="79" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Miami Marlins vs Los Angeles Dodgers (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Miami Marlins vs Los Angeles Dodgers (ROXIE)
-#EXTVLCOPT:http-referrer=https://roxiestreams.su
-#EXTVLCOPT:http-origin=https://roxiestreams.su
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://602.shoncine.com/mlb8.m3u8
-#EXTINF:-1 tvg-chno="83" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] New York Yankees vs Texas Rangers (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] New York Yankees vs Texas Rangers (ROXIE)
+https://602.shoncine.com/mlb11.m3u8
+#EXTINF:-1 tvg-chno="51" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Boston Red Sox vs Toronto Blue Jays (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Boston Red Sox vs Toronto Blue Jays (ROXIE)
 #EXTVLCOPT:http-referrer=https://roxiestreams.su
 #EXTVLCOPT:http-origin=https://roxiestreams.su
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://602.shoncine.com/mlb6.m3u8
-#EXTINF:-1 tvg-chno="111" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA Basketball] Denver Nuggets vs Minnesota Timberwolves (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Denver Nuggets vs Minnesota Timberwolves (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/aaaf07f5-63a7-4d98-9898-93e0209f84d7/master.m3u8
-#EXTINF:-1 tvg-chno="146" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL Hockey] Pittsburgh Penguins vs Philadelphia Flyers 2 HD (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL Hockey] Pittsburgh Penguins vs Philadelphia Flyers 2 HD (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/4d31f031-83e9-4986-95c9-dab57031f397/master.m3u8
-#EXTINF:-1 tvg-chno="148" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL Hockey] Utah Mammoth vs Vegas Golden Knights 2 HD (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL Hockey] Utah Mammoth vs Vegas Golden Knights 2 HD (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/82cd54b8-c2ae-4c24-aeab-715ceb954899/master.m3u8
-#EXTINF:-1 tvg-chno="176" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Lazio vs Udinese (ROXIE)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Lazio vs Udinese (ROXIE)
+#EXTINF:-1 tvg-chno="54" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago Cubs vs San Diego Padres (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Chicago Cubs vs San Diego Padres (ROXIE)
 #EXTVLCOPT:http-referrer=https://roxiestreams.su
 #EXTVLCOPT:http-origin=https://roxiestreams.su
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://daffodil.nimesh.eu.cc/bein.m3u8
-#EXTINF:-1 tvg-chno="177" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Man United vs Brentford (ROXIE)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Man United vs Brentford (ROXIE)
+https://602.shoncine.com/mlb14.m3u8
+#EXTINF:-1 tvg-chno="56" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Colorado Rockies vs Cincinnati Reds (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Colorado Rockies vs Cincinnati Reds (ROXIE)
+#EXTVLCOPT:http-referrer=https://roxiestreams.su
+#EXTVLCOPT:http-origin=https://roxiestreams.su
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://602.shoncine.com/mlb3.m3u8
+#EXTINF:-1 tvg-chno="58" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Detroit Tigers vs Atlanta Braves (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Detroit Tigers vs Atlanta Braves (ROXIE)
+#EXTVLCOPT:http-referrer=https://roxiestreams.su
+#EXTVLCOPT:http-origin=https://roxiestreams.su
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://602.shoncine.com/mlb8.m3u8
+#EXTINF:-1 tvg-chno="60" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Kansas City Royals vs Athletics (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Kansas City Royals vs Athletics (ROXIE)
+#EXTVLCOPT:http-referrer=https://roxiestreams.su
+#EXTVLCOPT:http-origin=https://roxiestreams.su
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://602.shoncine.com/mlb13.m3u8
+#EXTINF:-1 tvg-chno="61" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Angels vs Chicago White Sox (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Los Angeles Angels vs Chicago White Sox (ROXIE)
+#EXTVLCOPT:http-referrer=https://roxiestreams.su
+#EXTVLCOPT:http-origin=https://roxiestreams.su
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://602.shoncine.com/mlb10.m3u8
+#EXTINF:-1 tvg-chno="65" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Miami Marlins vs Los Angeles Dodgers (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Miami Marlins vs Los Angeles Dodgers (ROXIE)
+#EXTVLCOPT:http-referrer=https://roxiestreams.su
+#EXTVLCOPT:http-origin=https://roxiestreams.su
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://602.shoncine.com/mlb15.m3u8
+#EXTINF:-1 tvg-chno="67" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] New York Yankees vs Texas Rangers (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] New York Yankees vs Texas Rangers (ROXIE)
+#EXTVLCOPT:http-referrer=https://roxiestreams.su
+#EXTVLCOPT:http-origin=https://roxiestreams.su
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://602.shoncine.com/mlb12.m3u8
+#EXTINF:-1 tvg-chno="71" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] San Francisco Giants vs Philadelphia Phillies (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] San Francisco Giants vs Philadelphia Phillies (ROXIE)
+#EXTVLCOPT:http-referrer=https://roxiestreams.su
+#EXTVLCOPT:http-origin=https://roxiestreams.su
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://602.shoncine.com/mlb5.m3u8
+#EXTINF:-1 tvg-chno="72" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Seattle Mariners vs Minnesota Twins (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Seattle Mariners vs Minnesota Twins (ROXIE)
+#EXTVLCOPT:http-referrer=https://roxiestreams.su
+#EXTVLCOPT:http-origin=https://roxiestreams.su
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://602.shoncine.com/mlb9.m3u8
+#EXTINF:-1 tvg-chno="74" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] St. Louis Cardinals vs Pittsburgh Pirates (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] St. Louis Cardinals vs Pittsburgh Pirates (ROXIE)
+#EXTVLCOPT:http-referrer=https://roxiestreams.su
+#EXTVLCOPT:http-origin=https://roxiestreams.su
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://602.shoncine.com/mlb4.m3u8
+#EXTINF:-1 tvg-chno="76" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Tampa Bay Rays vs Cleveland Guardians (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Tampa Bay Rays vs Cleveland Guardians (ROXIE)
+#EXTVLCOPT:http-referrer=https://roxiestreams.su
+#EXTVLCOPT:http-origin=https://roxiestreams.su
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://602.nimesh.eu.cc/mlb.m3u8
+#EXTINF:-1 tvg-chno="78" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Washington Nationals vs New York Mets (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Washington Nationals vs New York Mets (ROXIE)
+#EXTVLCOPT:http-referrer=https://roxiestreams.su
+#EXTVLCOPT:http-origin=https://roxiestreams.su
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://602.shoncine.com/mlb7.m3u8
+#EXTINF:-1 tvg-chno="88" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Atlanta Hawks vs New York Knicks (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Atlanta Hawks vs New York Knicks (ROXIE)
+#EXTVLCOPT:http-referrer=https://roxiestreams.su
+#EXTVLCOPT:http-origin=https://roxiestreams.su
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://602.nimesh.eu.cc/nba2.m3u8
+#EXTINF:-1 tvg-chno="93" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Philadelphia 76ers vs Boston Celtics (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Philadelphia 76ers vs Boston Celtics (ROXIE)
+#EXTVLCOPT:http-referrer=https://roxiestreams.su
+#EXTVLCOPT:http-origin=https://roxiestreams.su
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://daffodil.nimesh.eu.cc/nba.m3u8
+#EXTINF:-1 tvg-chno="94" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Portland Trail Blazers vs San Antonio Spurs (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Portland Trail Blazers vs San Antonio Spurs (ROXIE)
+#EXTVLCOPT:http-referrer=https://roxiestreams.su
+#EXTVLCOPT:http-origin=https://roxiestreams.su
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://daffodil.shoncine.com/nba.m3u8
+#EXTINF:-1 tvg-chno="97" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Boston Bruins vs Buffalo Sabres (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Boston Bruins vs Buffalo Sabres (ROXIE)
+#EXTVLCOPT:http-referrer=https://roxiestreams.su
+#EXTVLCOPT:http-origin=https://roxiestreams.su
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://daffodil.shoncine.com/nhl.m3u8
+#EXTINF:-1 tvg-chno="108" tvg-id="Live.Event.us" tvg-name="[Snooker] Snooker World Championshipe 1 (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Snooker] Snooker World Championshipe 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://195.178.110.42/hls/JRRRB.m3u8
+#EXTINF:-1 tvg-chno="109" tvg-id="Live.Event.us" tvg-name="[Snooker] Snooker World Championshipe 2 (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Snooker] Snooker World Championshipe 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://195.178.110.42/hls/JRRR.m3u8
+#EXTINF:-1 tvg-chno="110" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Botafogo vs Independiente Petrolero (ROXIE)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Botafogo vs Independiente Petrolero (ROXIE)
+#EXTVLCOPT:http-referrer=https://roxiestreams.su
+#EXTVLCOPT:http-origin=https://roxiestreams.su
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://daffodil.nimesh.eu.cc/golazo.m3u8
+#EXTINF:-1 tvg-chno="111" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Cruzeiro vs Boca Juniors (ROXIE)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Cruzeiro vs Boca Juniors (ROXIE)
 #EXTVLCOPT:http-referrer=https://roxiestreams.su
 #EXTVLCOPT:http-origin=https://roxiestreams.su
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/d6e0bd30861d00a40ef3a010a31c9357/manifest/video.m3u8
+#EXTINF:-1 tvg-chno="112" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Lanús vs LDU Quito (ROXIE)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Lanús vs LDU Quito (ROXIE)
+#EXTVLCOPT:http-referrer=https://roxiestreams.su
+#EXTVLCOPT:http-origin=https://roxiestreams.su
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/d6e0bd30861d00a40ef3a010a31c9357/manifest/video.m3u8
+#EXTINF:-1 tvg-chno="113" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Nashville SC vs Tigres UANL (ROXIE)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Nashville SC vs Tigres UANL (ROXIE)
+#EXTVLCOPT:http-referrer=https://roxiestreams.su
+#EXTVLCOPT:http-origin=https://roxiestreams.su
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://daffodil.shoncine.com/one.m3u8
+#EXTINF:-1 tvg-chno="119" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Sporting Cristal vs Junior (ROXIE)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Sporting Cristal vs Junior (ROXIE)
+#EXTVLCOPT:http-referrer=https://roxiestreams.su
+#EXTVLCOPT:http-origin=https://roxiestreams.su
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/d6e0bd30861d00a40ef3a010a31c9357/manifest/video.m3u8
+#EXTINF:-1 tvg-chno="121" tvg-id="Live.Event.us" tvg-name="[Tennis ATP] Tennis ATP Madrid 1 (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Tennis ATP] Tennis ATP Madrid 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://195.178.110.42/hls/FUUUBQQ.m3u8
+#EXTINF:-1 tvg-chno="122" tvg-id="Live.Event.us" tvg-name="[Tennis ATP] Tennis ATP Madrid 2 (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Tennis ATP] Tennis ATP Madrid 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://195.178.110.42/hls/IIIIY.m3u8
