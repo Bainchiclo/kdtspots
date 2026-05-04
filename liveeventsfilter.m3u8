@@ -4,11 +4,6 @@
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://b.kaisamm.shop/hls/DRDRDRQQQ.m3u8
-#EXTINF:-1 tvg-chno="30" tvg-id="Live.Event.us" tvg-name="[Canada Premier League] Pacific FC vs Vancouver FC (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Canada Premier League] Pacific FC vs Vancouver FC (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://b.kaisamm.shop/hls/cccc.m3u8
 #EXTINF:-1 tvg-chno="32" tvg-id="Soccer.Dummy.us" tvg-name="[Colombia Primera A] America De Cali vs Pereira (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1543.png" group-title="Live Events",[Colombia Primera A] America De Cali vs Pereira (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -29,11 +24,26 @@ https://mainstreams.pro/hls/24SDAZFcsqnj24.m3u8
 #EXTVLCOPT:http-origin=https://instream.click/jwp-eu.php?stream=HDTV24
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://instreams.pro/EU/HDTV24/index.m3u8
+#EXTINF:-1 tvg-chno="61" tvg-id="Soccer.Dummy.us" tvg-name="[French Ligue 1] Le Havre AC vs Lille (STRMSGATE)" tvg-logo="https://ligue1.com/images/Logo_Ligue_1.webp" group-title="Live Events",[French Ligue 1] Le Havre AC vs Lille (STRMSGATE)
+#EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV22
+#EXTVLCOPT:http-origin=https://instream.click/jwp-eu.php?stream=HDTV22
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://instreams.pro/EU/HDTV22/index.m3u8
+#EXTINF:-1 tvg-chno="63" tvg-id="Soccer.Dummy.us" tvg-name="[French Ligue 1] Stade Rennais vs Lyon (STRMSGATE)" tvg-logo="https://ligue1.com/images/Logo_Ligue_1.webp" group-title="Live Events",[French Ligue 1] Stade Rennais vs Lyon (STRMSGATE)
+#EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV22
+#EXTVLCOPT:http-origin=https://instream.click/jwp-eu.php?stream=HDTV22
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://instreams.live/EU/HDTV22/index.m3u8
 #EXTINF:-1 tvg-chno="64" tvg-id="Soccer.Dummy.us" tvg-name="[French Ligue 1] Toulouse vs Strasbourg (STRMSGATE)" tvg-logo="https://ligue1.com/images/Logo_Ligue_1.webp" group-title="Live Events",[French Ligue 1] Toulouse vs Strasbourg (STRMSGATE)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV23
 #EXTVLCOPT:http-origin=https://instream.click/jwp-eu.php?stream=HDTV23
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://instreams.pro/EU/HDTV23/index.m3u8
+#EXTINF:-1 tvg-chno="72" tvg-id="Soccer.Dummy.us" tvg-name="[German Bundesliga] Borussia Dortmund vs Borussia Mönchengladbach (STRMSGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/10.png" group-title="Live Events",[German Bundesliga] Borussia Dortmund vs Borussia Mönchengladbach (STRMSGATE)
+#EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV19
+#EXTVLCOPT:http-origin=https://instream.click/jwp-eu.php?stream=HDTV19
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://instreams.live/EU/HDTV19/index.m3u8
 #EXTINF:-1 tvg-chno="74" tvg-id="Soccer.Dummy.us" tvg-name="[German Bundesliga] Mainz vs St. Pauli (STRMSGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/10.png" group-title="Live Events",[German Bundesliga] Mainz vs St. Pauli (STRMSGATE)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV18
 #EXTVLCOPT:http-origin=https://instream.click/jwp-eu.php?stream=HDTV18
@@ -89,16 +99,6 @@ https://601.shoncine.com/mlb14.m3u8
 #EXTVLCOPT:http-origin=https://roxiestreams.su
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://601.shoncine.com/mlb15.m3u8
-#EXTINF:-1 tvg-chno="172" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA Basketball] Cleveland Cavaliers vs Toronto Raptors 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Cleveland Cavaliers vs Toronto Raptors 1 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://193.47.62.194/hls/ZUUUU.m3u8
-#EXTINF:-1 tvg-chno="173" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA Basketball] Cleveland Cavaliers vs Toronto Raptors 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Cleveland Cavaliers vs Toronto Raptors 2 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://b.kaisamm.shop/hls/ZUUUU.m3u8
 #EXTINF:-1 tvg-chno="174" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA Basketball] Cleveland Cavaliers vs Toronto Raptors HD (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Cleveland Cavaliers vs Toronto Raptors HD (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -109,31 +109,11 @@ http://195.178.110.70/hls/VHHH.m3u8
 #EXTVLCOPT:http-origin=https://roxiestreams.su
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://daffodil.shoncine.com/nba2.m3u8
-#EXTINF:-1 tvg-chno="182" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL Hockey] Colorado Avalanche vs Minnesota Wild 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL Hockey] Colorado Avalanche vs Minnesota Wild 1 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://193.47.62.194/hls/UTTTQQ.m3u8
-#EXTINF:-1 tvg-chno="183" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL Hockey] Colorado Avalanche vs Minnesota Wild 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL Hockey] Colorado Avalanche vs Minnesota Wild 2 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://b.kaisamm.shop/hls/UTTTQQ.m3u8
 #EXTINF:-1 tvg-chno="184" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL Hockey] Colorado Avalanche vs Minnesota Wild HD (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL Hockey] Colorado Avalanche vs Minnesota Wild HD (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://195.178.110.62/hls/VHHHT.m3u8
-#EXTINF:-1 tvg-chno="185" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL Hockey] Tampa Bay Lightning vs Montreal Canadiens 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL Hockey] Tampa Bay Lightning vs Montreal Canadiens 1 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://193.47.62.194/hls/UTTTQQ.m3u8
-#EXTINF:-1 tvg-chno="186" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL Hockey] Tampa Bay Lightning vs Montreal Canadiens 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL Hockey] Tampa Bay Lightning vs Montreal Canadiens 2 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://b.kaisamm.shop/hls/UTTTQQ.m3u8
 #EXTINF:-1 tvg-chno="187" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL Hockey] Tampa Bay Lightning vs Montreal Canadiens HD (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL Hockey] Tampa Bay Lightning vs Montreal Canadiens HD (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -149,11 +129,6 @@ https://chatgpt.hereisman.net/playlist/50079/load-playlist
 #EXTVLCOPT:http-origin=https://roxiestreams.su
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://daffodil.shoncine.com/nhl.m3u8
-#EXTINF:-1 tvg-chno="202" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Wild vs Avalanche (WEBCAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Wild vs Avalanche (WEBCAST)
-#EXTVLCOPT:http-referrer=https://slapstreams.com
-#EXTVLCOPT:http-origin=https://slapstreams.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://webcast-origin.b-cdn.net/bcdn_token=zJXMb0kCtG0h8-_m-JZEvuLtx0_46jxxEjn39bIzAdU&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhG1otfhCu0gmJFhRJqIdhEH%2F&expires=1777876269/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhG1otfhCu0gmJFhRJqIdhEH/84.m3u8
 #EXTINF:-1 tvg-chno="203" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[National Basketball Association] Orlando Magic vs Detroit Pistons (STRMSGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[National Basketball Association] Orlando Magic vs Detroit Pistons (STRMSGATE)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NBA1
 #EXTVLCOPT:http-origin=https://instream.click/jwp-us.php?stream=NBA1
