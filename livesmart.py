@@ -39,7 +39,7 @@ def scrape_m3u(url, keywords):
 
 # Configuration
 SOURCE_URL = "https://raw.githubusercontent.com/Bainchiclo/kdtspots/refs/heads/main/liveeventsfilter.m3u8"
-TARGET_KEYWORDS = ["(FAWA)", "(TVAPP)", "(ROXIE)"]
+TARGET_KEYWORDS = ["(FAWA)", "(XYZSTRM)", "(WEBCAST)", "(SPRTSPASS)", "(TVAPP)", "(ROXIE)"]
 
 # Execute and save
 result = scrape_m3u(SOURCE_URL, TARGET_KEYWORDS)
