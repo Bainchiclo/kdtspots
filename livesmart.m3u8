@@ -9,11 +9,6 @@ http://193.47.62.190/hls/HEEEAA.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://193.47.62.190/hls/HEEE.m3u8
-#EXTINF:-1 tvg-chno="3" tvg-id="AUS.Rules.Football.Dummy.us" tvg-name="[AFL Aussie Rules] Sydney Swans Port vs Adelaide Power (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/afl.png" group-title="Live Events",[AFL Aussie Rules] Sydney Swans Port vs Adelaide Power (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://193.47.62.190/hls/HEEEA.m3u8
 #EXTINF:-1 tvg-chno="120" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Athletics at Boston Red Sox (SPRTSPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Athletics at Boston Red Sox (SPRTSPASS)
 #EXTVLCOPT:http-referrer=https://sportspass.site/mlb/redsox.html
 #EXTVLCOPT:http-origin=https://sportspass.site/mlb/redsox.html
@@ -89,43 +84,3 @@ https://hardwickasx.s3.us-east-1.amazonaws.com/rays.m3u8
 #EXTVLCOPT:http-origin=https://sportspass.site/mlb/bluejays.html
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://hardwickasx.s3.us-east-1.amazonaws.com/bluejays.m3u8
-#EXTINF:-1 tvg-chno="235" tvg-id="Live.Event.us" tvg-name="[NRL] Canterbury-Bankstown Bulldogs W vs NQ Cowboys W (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[NRL] Canterbury-Bankstown Bulldogs W vs NQ Cowboys W (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://193.47.62.190/hls/DFFFaA.m3u8
-#EXTINF:-1 tvg-chno="236" tvg-id="Live.Event.us" tvg-name="[NRL] Cronulla Sharks W vs Gold Coast Titans W (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[NRL] Cronulla Sharks W vs Gold Coast Titans W (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://193.47.62.190/hls/DFFFaA.m3u8
-#EXTINF:-1 tvg-chno="237" tvg-id="Live.Event.us" tvg-name="[NRL] Dolphins vs Brisbane Broncos (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[NRL] Dolphins vs Brisbane Broncos (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://193.47.62.190/hls/DFFFaAAA.m3u8
-#EXTINF:-1 tvg-chno="238" tvg-id="Live.Event.us" tvg-name="[NRL] Melbourne Storm vs Manly Sea Eagles (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[NRL] Melbourne Storm vs Manly Sea Eagles (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://193.47.62.190/hls/DFFFaAAA.m3u8
-#EXTINF:-1 tvg-chno="239" tvg-id="Live.Event.us" tvg-name="[NRL] Zealand Warriors W vs Newcastle Knights W (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[NRL] Zealand Warriors W vs Newcastle Knights W (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://193.47.62.190/hls/DFFFaAA.m3u8
-#EXTINF:-1 tvg-chno="257" tvg-id="Live.Event.us" tvg-name="[Rugby NZ Bunnings NPC] Auckland vs Wellington (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Rugby NZ Bunnings NPC] Auckland vs Wellington (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://193.47.62.190/hls/DFFFa.m3u8
-#EXTINF:-1 tvg-chno="258" tvg-id="Live.Event.us" tvg-name="[Rugby NZ Bunnings NPC] Bay of Plenty vs Northland (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Rugby NZ Bunnings NPC] Bay of Plenty vs Northland (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://193.47.62.190/hls/DFFFa.m3u8
-#EXTINF:-1 tvg-chno="259" tvg-id="Live.Event.us" tvg-name="[Rugby NZ Bunnings NPC] Hawkes Bay vs Tasman (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Rugby NZ Bunnings NPC] Hawkes Bay vs Tasman (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://193.47.62.190/hls/DFFFa.m3u8
