@@ -14,11 +14,6 @@ https://cileynasi.s3.us-east-1.amazonaws.com/dodgers.m3u8
 #EXTVLCOPT:http-origin=https://sportspass.site/mlb/phillies.html
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cileynasi.s3.us-east-1.amazonaws.com/cubs.m3u8
-#EXTINF:-1 tvg-chno="175" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Rangers vs Angels (WEBCAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Rangers vs Angels (WEBCAST)
-#EXTVLCOPT:http-referrer=https://mlbwebcast.com
-#EXTVLCOPT:http-origin=https://mlbwebcast.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://webcast-origin.b-cdn.net/bcdn_token=DiXVqoHH3rEcJ_QkUuKJZwTe7KavK54rRbSiGjkoQHo&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhHxJMlG-DpB7o74IHhyl3Og%2F&expires=1786692621/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhHxJMlG-DpB7o74IHhyl3Og/106.m3u8
 #EXTINF:-1 tvg-chno="181" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Texas Rangers at Los Angeles Angels (SPRTSPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Texas Rangers at Los Angeles Angels (SPRTSPASS)
 #EXTVLCOPT:http-referrer=https://sportspass.site/mlb/rangers.html
 #EXTVLCOPT:http-origin=https://sportspass.site/mlb/rangers.html
@@ -54,8 +49,3 @@ https://cileynasi.s3.us-east-1.amazonaws.com/texans.m3u8
 #EXTVLCOPT:http-origin=https://sportspass.site/nfl/49ers.html
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cileynasi.s3.us-east-1.amazonaws.com/braves.m3u8
-#EXTINF:-1 tvg-chno="228" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Titans vs 49ers (WEBCAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Titans vs 49ers (WEBCAST)
-#EXTVLCOPT:http-referrer=https://nflwebcast.com
-#EXTVLCOPT:http-origin=https://nflwebcast.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://webcast-origin.b-cdn.net/bcdn_token=Wsc88mWXVlO1JlZFkr-Df3nHQ56qBgkczXHoRHQKMRA&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGqE5IBzNUZpxTtQcb5SKE7%2F&expires=1786692624/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGqE5IBzNUZpxTtQcb5SKE7/176.m3u8
