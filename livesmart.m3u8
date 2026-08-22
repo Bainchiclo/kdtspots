@@ -14,16 +14,6 @@ http://193.47.62.41/hls/ROOOBAA.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://193.47.62.44/hls/afff.m3u8
-#EXTINF:-1 tvg-chno="48" tvg-id="Soccer.Dummy.us" tvg-name="[Chile Liga de Primera] Audax Italiano vs Union La Calera (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/86.png" group-title="Live Events",[Chile Liga de Primera] Audax Italiano vs Union La Calera (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://193.47.62.41/hls/UIIIAAAAAAA.m3u8
-#EXTINF:-1 tvg-chno="49" tvg-id="Soccer.Dummy.us" tvg-name="[Colombia Primera A] Alianza vs Pereira (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1543.png" group-title="Live Events",[Colombia Primera A] Alianza vs Pereira (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://193.47.62.41/hls/YPPPA.m3u8
 #EXTINF:-1 tvg-chno="52" tvg-id="Cricket.Dummy.us" tvg-name="[Cricket CPL T20] Saint Lucia Kings vs Jamaica Kingsmen (FAWA)" tvg-logo="https://i.gyazo.com/f008a3e3b9e6b0187857985b6c44782b.png" group-title="Live Events",[Cricket CPL T20] Saint Lucia Kings vs Jamaica Kingsmen (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -59,6 +49,11 @@ https://webcast-origin.b-cdn.net/bcdn_token=OXImLKXAske_CI9yXdGu5nDnQOkTE7bPkR5b
 #EXTVLCOPT:http-origin=https://sportspass.site/mlb/brewers.html
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cirkel996.s3.us-east-1.amazonaws.com/brewers.m3u8
+#EXTINF:-1 tvg-chno="146" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Cardinals vs Phillies (WEBCAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Cardinals vs Phillies (WEBCAST)
+#EXTVLCOPT:http-referrer=https://mlbwebcast.com
+#EXTVLCOPT:http-origin=https://mlbwebcast.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://webcast-origin.b-cdn.net/bcdn_token=tkpq51Mj0tu8X1tUa9PCPRE_1-hoHOVAEETTVN0EpbA&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhFHXyGMsexAg3zeyZCxQh37%2F&expires=1787382010/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhFHXyGMsexAg3zeyZCxQh37/114.m3u8
 #EXTINF:-1 tvg-chno="147" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago Cubs at Seattle Mariners (SPRTSPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Chicago Cubs at Seattle Mariners (SPRTSPASS)
 #EXTVLCOPT:http-referrer=https://sportspass.site/mlb/cubs.html
 #EXTVLCOPT:http-origin=https://sportspass.site/mlb/cubs.html
@@ -99,11 +94,6 @@ https://cirkel996.s3.us-east-1.amazonaws.com/rangers.m3u8
 #EXTVLCOPT:http-origin=https://mlbwebcast.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://webcast-origin.b-cdn.net/bcdn_token=8IGH050_DsnE3k6JjQ05M6czrTw51x_t6EocaS0JPcU&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGGuwvVZSFFwJHHQ2J4srsb%2F&expires=1787382012/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGGuwvVZSFFwJHHQ2J4srsb/123.m3u8
-#EXTINF:-1 tvg-chno="193" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Nationals vs Marlins (WEBCAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Nationals vs Marlins (WEBCAST)
-#EXTVLCOPT:http-referrer=https://mlbwebcast.com
-#EXTVLCOPT:http-origin=https://mlbwebcast.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://webcast-origin.b-cdn.net/bcdn_token=1KTqYXtoBTXRyBFOsjLQ_Nc96k7f6b7UF3DRDM71S7g&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhHZsOlsmHS6VI7_9gCD4qaa%2F&expires=1787382012/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhHZsOlsmHS6VI7_9gCD4qaa/111.m3u8
 #EXTINF:-1 tvg-chno="198" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Pirates vs Dodgers (WEBCAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Pirates vs Dodgers (WEBCAST)
 #EXTVLCOPT:http-referrer=https://mlbwebcast.com
 #EXTVLCOPT:http-origin=https://mlbwebcast.com
