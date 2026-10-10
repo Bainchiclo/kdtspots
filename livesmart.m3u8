@@ -1,53 +1,293 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="94" tvg-id="Golf.Dummy.us" tvg-name="[Golf PGA] Golf PGA Baycurrent Classic (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/10/PGA-Tour-Logo-500x281.png" group-title="Live Events",[Golf PGA] Golf PGA Baycurrent Classic (FAWA)
+#EXTINF:-1 tvg-chno="66" tvg-id="Live.Event.us" tvg-name="[Basketball Greece League] PAOK vs Lefkadas (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Basketball Greece League] PAOK vs Lefkadas (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-http://193.47.62.44/hls/CTTTT.m3u8
-#EXTINF:-1 tvg-chno="266" tvg-id="Live.Event.us" tvg-name="[MMA BKFC] MMA BKFC : Cisneros vs Petersen (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[MMA BKFC] MMA BKFC : Cisneros vs Petersen (FAWA)
+http://193.47.62.41/hls/NTTT.m3u8
+#EXTINF:-1 tvg-chno="77" tvg-id="Soccer.Dummy.us" tvg-name="[Belgium Pro League] Cercle Brugge vs RSC Anderlecht (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/6.png" group-title="Live Events",[Belgium Pro League] Cercle Brugge vs RSC Anderlecht (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-http://193.47.62.50/hls/AZZZd.m3u8
-#EXTINF:-1 tvg-chno="268" tvg-id="Soccer.Dummy.us" tvg-name="[Mexico Liga MX] Puebla vs Club Leon (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/22.png" group-title="Live Events",[Mexico Liga MX] Puebla vs Club Leon (FAWA)
+http://193.47.62.59/hls/QAQAQAQ.m3u8
+#EXTINF:-1 tvg-chno="188" tvg-id="Cricket.Dummy.us" tvg-name="[Cricket] South Africa vs Australia (FAWA)" tvg-logo="https://files.catbox.moe/rwd8mv.png" group-title="Live Events",[Cricket] South Africa vs Australia (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-http://193.47.62.50/hls/JTTTA.m3u8
-#EXTINF:-1 tvg-chno="273" tvg-id="Racing.Dummy.us" tvg-name="[MotoGP] MotoGP Grand Prix of Indonesia (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/03/MotoGP-Logo-500x281.png" group-title="Live Events",[MotoGP] MotoGP Grand Prix of Indonesia (FAWA)
+http://193.47.62.50/hls/HHHHRX.m3u8
+#EXTINF:-1 tvg-chno="191" tvg-id="Soccer.Dummy.us" tvg-name="[Czech Chance Liga] Hradec Kralove vs Artis Brno (FAWA)" tvg-logo="https://cdn.prod.website-files.com/68f550992570ca0322737dc2/68fe4cde8ecaae94ebe64622_chance-liga-footballlogos-org.webp" group-title="Live Events",[Czech Chance Liga] Hradec Kralove vs Artis Brno (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-http://193.47.62.50/hls/HHHHRAAA.m3u8
-#EXTINF:-1 tvg-chno="312" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL Hockey] Columbus Blue Jackets vs Pittsburgh Penguins (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL Hockey] Columbus Blue Jackets vs Pittsburgh Penguins (FAWA)
+http://193.47.62.41/hls/TGGGAAAAAQQQQQ.m3u8
+#EXTINF:-1 tvg-chno="192" tvg-id="Soccer.Dummy.us" tvg-name="[Czech Chance Liga] Plzen vs Mlada Boleslav (FAWA)" tvg-logo="https://cdn.prod.website-files.com/68f550992570ca0322737dc2/68fe4cde8ecaae94ebe64622_chance-liga-footballlogos-org.webp" group-title="Live Events",[Czech Chance Liga] Plzen vs Mlada Boleslav (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/803d1f3d-c724-4dcf-90ff-c777217eeab7/master.m3u8
-#EXTINF:-1 tvg-chno="313" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL Hockey] Detroit Red Wings vs Seattle Kraken (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL Hockey] Detroit Red Wings vs Seattle Kraken (FAWA)
+http://193.47.62.41/hls/TGGGAAAAAQQQQQQ.m3u8
+#EXTINF:-1 tvg-chno="193" tvg-id="Darts.Dummy.us" tvg-name="[Darts] Darts European Tour 14 (FAWA)" tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/013/468/398/small/darts-board-icon-png.png" group-title="Live Events",[Darts] Darts European Tour 14 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/be8425e2-6dad-4b01-9e91-fb7d9596d086/master.m3u8
-#EXTINF:-1 tvg-chno="314" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL Hockey] Washington Capitals vs New York Rangers (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL Hockey] Washington Capitals vs New York Rangers (FAWA)
+http://193.47.62.41/hls/cyyyaa.m3u8
+#EXTINF:-1 tvg-chno="216" tvg-id="Soccer.Dummy.us" tvg-name="[English Championship] Blackburn Rovers vs Cardiff City (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="Live Events",[English Championship] Blackburn Rovers vs Cardiff City (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/d328c36b-f630-410a-9859-45a6a205d7f1/master.m3u8
-#EXTINF:-1 tvg-chno="315" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL Hockey] Winnipeg Jets vs Anaheim Ducks (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL Hockey] Winnipeg Jets vs Anaheim Ducks (FAWA)
+http://193.47.62.59/hls/QAQAQAQQQQQAAA.m3u8
+#EXTINF:-1 tvg-chno="217" tvg-id="Soccer.Dummy.us" tvg-name="[English Championship] Bolton vs Stoke City (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="Live Events",[English Championship] Bolton vs Stoke City (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/94ba5cce-daa1-40ae-b4a8-79e3a24bbd00/master.m3u8
-#EXTINF:-1 tvg-chno="339" tvg-id="Soccer.Dummy.us" tvg-name="[Peru Liga 1 Apertura] Deportivo Garcilaso vs Sport Huancayo (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1813.png" group-title="Live Events",[Peru Liga 1 Apertura] Deportivo Garcilaso vs Sport Huancayo (FAWA)
+http://193.47.62.50/hls/FUUUQQQQQAAA.m3u8
+#EXTINF:-1 tvg-chno="219" tvg-id="Soccer.Dummy.us" tvg-name="[English Championship] Derby County vs Wrexham (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="Live Events",[English Championship] Derby County vs Wrexham (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-http://193.47.62.50/hls/JTTT.m3u8
-#EXTINF:-1 tvg-chno="367" tvg-id="Rugby.Dummy.us" tvg-name="[Rugby Friendly] New Zealand vs Australia (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Rugby Friendly] New Zealand vs Australia (FAWA)
+http://193.47.62.55/hls/KSSSAQQQQAAA.m3u8
+#EXTINF:-1 tvg-chno="220" tvg-id="Soccer.Dummy.us" tvg-name="[English Championship] Middlesbrough vs Wolves (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="Live Events",[English Championship] Middlesbrough vs Wolves (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-http://193.47.62.50/hls/ffffa.m3u8
-#EXTINF:-1 tvg-chno="368" tvg-id="Rugby.Dummy.us" tvg-name="[Rugby NZ NPC] North Harbour vs Taranaki (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Rugby NZ NPC] North Harbour vs Taranaki (FAWA)
+http://193.47.62.44/hls/sasasaAAAQQQQQQ.m3u8
+#EXTINF:-1 tvg-chno="221" tvg-id="Soccer.Dummy.us" tvg-name="[English Championship] Preston vs Millwall (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="Live Events",[English Championship] Preston vs Millwall (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-http://193.47.62.50/hls/ffff.m3u8
-#EXTINF:-1 tvg-chno="369" tvg-id="Rugby.Dummy.us" tvg-name="[Rugby NZ NPC] Otago vs Hawkes Bay (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Rugby NZ NPC] Otago vs Hawkes Bay (FAWA)
+http://193.47.62.59/hls/QAQAQAQQQQQAAQA.m3u8
+#EXTINF:-1 tvg-chno="222" tvg-id="Soccer.Dummy.us" tvg-name="[English Championship] Sheffield Utd vs Lincoln (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="Live Events",[English Championship] Sheffield Utd vs Lincoln (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-http://193.47.62.50/hls/ffffa.m3u8
-#EXTINF:-1 tvg-chno="400" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[WWE Wrestling] WWE Friday Night Smackdown (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[WWE Wrestling] WWE Friday Night Smackdown (FAWA)
+http://193.47.62.50/hls/FUUUQQQQQAAAA.m3u8
+#EXTINF:-1 tvg-chno="224" tvg-id="Soccer.Dummy.us" tvg-name="[English Championship] Watford vs Burnley (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="Live Events",[English Championship] Watford vs Burnley (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://admin2.formaturamaxi.com.br/wwe.m3u8
+http://193.47.62.55/hls/KSSSAQQQQAAAA.m3u8
+#EXTINF:-1 tvg-chno="227" tvg-id="Soccer.Dummy.us" tvg-name="[English League One] Bradford City vs Leyton Orient (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/25.png" group-title="Live Events",[English League One] Bradford City vs Leyton Orient (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.55/hls/KSSSAQQQQ.m3u8
+#EXTINF:-1 tvg-chno="228" tvg-id="Soccer.Dummy.us" tvg-name="[English League One] Cambridge Utd vs Blackpool (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/25.png" group-title="Live Events",[English League One] Cambridge Utd vs Blackpool (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.44/hls/sasasaAAAQQQ.m3u8
+#EXTINF:-1 tvg-chno="230" tvg-id="Soccer.Dummy.us" tvg-name="[English League One] Huddersfield vs Sheffield Wednesday (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/25.png" group-title="Live Events",[English League One] Huddersfield vs Sheffield Wednesday (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.50/hls/FUUUQQQQQA.m3u8
+#EXTINF:-1 tvg-chno="231" tvg-id="Soccer.Dummy.us" tvg-name="[English League One] Leicester City vs Peterborough (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/25.png" group-title="Live Events",[English League One] Leicester City vs Peterborough (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.55/hls/KSSSAQQQQA.m3u8
+#EXTINF:-1 tvg-chno="232" tvg-id="Soccer.Dummy.us" tvg-name="[English League One] MK Dons vs Reading (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/25.png" group-title="Live Events",[English League One] MK Dons vs Reading (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.59/hls/QAQAQAQQQQQAA.m3u8
+#EXTINF:-1 tvg-chno="233" tvg-id="Soccer.Dummy.us" tvg-name="[English League One] Mansfield vs Bromley (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/25.png" group-title="Live Events",[English League One] Mansfield vs Bromley (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.44/hls/sasasaAAAQQQQ.m3u8
+#EXTINF:-1 tvg-chno="236" tvg-id="Soccer.Dummy.us" tvg-name="[English League One] Stevenage vs Wigan (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/25.png" group-title="Live Events",[English League One] Stevenage vs Wigan (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.50/hls/FUUUQQQQQAA.m3u8
+#EXTINF:-1 tvg-chno="237" tvg-id="Soccer.Dummy.us" tvg-name="[English League One] Stockport County vs Barnsley (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/25.png" group-title="Live Events",[English League One] Stockport County vs Barnsley (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.55/hls/KSSSAQQQQAA.m3u8
+#EXTINF:-1 tvg-chno="238" tvg-id="Soccer.Dummy.us" tvg-name="[English League One] Wycombe vs Luton (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/25.png" group-title="Live Events",[English League One] Wycombe vs Luton (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.44/hls/sasasaAAAQQQQQ.m3u8
+#EXTINF:-1 tvg-chno="239" tvg-id="Soccer.Dummy.us" tvg-name="[English League Two] Bristol Rovers vs Barnet (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/26.png" group-title="Live Events",[English League Two] Bristol Rovers vs Barnet (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.59/hls/QAQAQAQQQ.m3u8
+#EXTINF:-1 tvg-chno="240" tvg-id="Soccer.Dummy.us" tvg-name="[English League Two] Cheltenham vs Salford (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/26.png" group-title="Live Events",[English League Two] Cheltenham vs Salford (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.50/hls/FUUUQQQ.m3u8
+#EXTINF:-1 tvg-chno="241" tvg-id="Soccer.Dummy.us" tvg-name="[English League Two] Crawley vs Chesterfield (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/26.png" group-title="Live Events",[English League Two] Crawley vs Chesterfield (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.55/hls/KSSSAQQ.m3u8
+#EXTINF:-1 tvg-chno="242" tvg-id="Soccer.Dummy.us" tvg-name="[English League Two] Fleetwood vs Walsall (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/26.png" group-title="Live Events",[English League Two] Fleetwood vs Walsall (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.44/hls/sasasaAAAQ.m3u8
+#EXTINF:-1 tvg-chno="243" tvg-id="Soccer.Dummy.us" tvg-name="[English League Two] Newport vs Colchester (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/26.png" group-title="Live Events",[English League Two] Newport vs Colchester (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.59/hls/QAQAQAQQQQ.m3u8
+#EXTINF:-1 tvg-chno="245" tvg-id="Soccer.Dummy.us" tvg-name="[English League Two] Port Vale vs Grimsby (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/26.png" group-title="Live Events",[English League Two] Port Vale vs Grimsby (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.50/hls/FUUUQQQQ.m3u8
+#EXTINF:-1 tvg-chno="246" tvg-id="Soccer.Dummy.us" tvg-name="[English League Two] Rotherham vs Gillingham (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/26.png" group-title="Live Events",[English League Two] Rotherham vs Gillingham (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.55/hls/KSSSAQQQ.m3u8
+#EXTINF:-1 tvg-chno="247" tvg-id="Soccer.Dummy.us" tvg-name="[English League Two] Shrewsbury vs Exeter (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/26.png" group-title="Live Events",[English League Two] Shrewsbury vs Exeter (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.44/hls/sasasaAAAQQ.m3u8
+#EXTINF:-1 tvg-chno="249" tvg-id="Soccer.Dummy.us" tvg-name="[English League Two] Tranmere vs Rochdale (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/26.png" group-title="Live Events",[English League Two] Tranmere vs Rochdale (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.59/hls/QAQAQAQQQQQ.m3u8
+#EXTINF:-1 tvg-chno="250" tvg-id="Soccer.Dummy.us" tvg-name="[English League Two] York City vs Northampton (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/26.png" group-title="Live Events",[English League Two] York City vs Northampton (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.50/hls/FUUUQQQQQ.m3u8
+#EXTINF:-1 tvg-chno="255" tvg-id="Soccer.Dummy.us" tvg-name="[English Premier League] Arsenal vs Leeds United 3 HD (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Live Events",[English Premier League] Arsenal vs Leeds United 3 HD (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin.formaturamaxi.com.br/ncaa15.m3u8
+#EXTINF:-1 tvg-chno="257" tvg-id="Soccer.Dummy.us" tvg-name="[English Premier League] Aston Villa vs Brentford 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Live Events",[English Premier League] Aston Villa vs Brentford 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://www.rtmpcdn.com/live/f70ccaca-8bcb-42c2-bd0c-7c1ab2a453ba.m3u8
+#EXTINF:-1 tvg-chno="259" tvg-id="Soccer.Dummy.us" tvg-name="[English Premier League] Chelsea vs Bournemouth 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Live Events",[English Premier League] Chelsea vs Bournemouth 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://www.rtmpcdn.com/live/a1f4e762-f710-4321-be98-634d8298ca08.m3u8
+#EXTINF:-1 tvg-chno="261" tvg-id="Soccer.Dummy.us" tvg-name="[English Premier League] Ipswich Town vs Fulham 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Live Events",[English Premier League] Ipswich Town vs Fulham 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://www.rtmpcdn.com/live/1e66f3ea-183a-4712-849d-f625e96ce926.m3u8
+#EXTINF:-1 tvg-chno="263" tvg-id="Soccer.Dummy.us" tvg-name="[English Premier League] Sunderland vs Brighton 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Live Events",[English Premier League] Sunderland vs Brighton 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://www.rtmpcdn.com/live/fa75bd61-ff4c-4cfc-b291-802ad23c5daf.m3u8
+#EXTINF:-1 tvg-chno="264" tvg-id="Rugby.Dummy.us" tvg-name="[English Premiership Rugby] Northampton Saints vs Bath (FAWA)" tvg-logo="https://i.namu.wiki/i/LGf4j-Q5V2vAb3zluQtGa1fAwNH6-Qp4W4qZJGMhb36aPdPDHeUowt_ptSLTDh2k88_r4LdkEBTYM8-wcUOQug.webp" group-title="Live Events",[English Premiership Rugby] Northampton Saints vs Bath (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.41/hls/ORRR.m3u8
+#EXTINF:-1 tvg-chno="328" tvg-id="Live.Event.us" tvg-name="[France Rugby Top14] Stade Francais Paris vs Montpellier (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[France Rugby Top14] Stade Francais Paris vs Montpellier (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.41/hls/R777AAAAAAQQQQQQ.m3u8
+#EXTINF:-1 tvg-chno="342" tvg-id="Soccer.Dummy.us" tvg-name="[German Bundesliga] Augsburg vs Bayern Munchen (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/10.png" group-title="Live Events",[German Bundesliga] Augsburg vs Bayern Munchen (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.41/hls/KYYY.m3u8
+#EXTINF:-1 tvg-chno="343" tvg-id="Soccer.Dummy.us" tvg-name="[German Bundesliga] Augsburg vs Bayern Munchen 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/10.png" group-title="Live Events",[German Bundesliga] Augsburg vs Bayern Munchen 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://www.rtmpcdn.com/live/55db8456-6258-4dee-996c-2a549fb5c3d0.m3u8
+#EXTINF:-1 tvg-chno="346" tvg-id="Soccer.Dummy.us" tvg-name="[German Bundesliga] Hoffenheim vs Hamburger SV (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/10.png" group-title="Live Events",[German Bundesliga] Hoffenheim vs Hamburger SV (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.41/hls/KYYYA.m3u8
+#EXTINF:-1 tvg-chno="347" tvg-id="Soccer.Dummy.us" tvg-name="[German Bundesliga] Hoffenheim vs Hamburger SV 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/10.png" group-title="Live Events",[German Bundesliga] Hoffenheim vs Hamburger SV 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://www.rtmpcdn.com/live/fd9fda85-b484-4ba9-921a-ad3bac85803b.m3u8
+#EXTINF:-1 tvg-chno="348" tvg-id="Soccer.Dummy.us" tvg-name="[German Bundesliga] Mainz vs Bayer Leverkusen (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/10.png" group-title="Live Events",[German Bundesliga] Mainz vs Bayer Leverkusen (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.41/hls/KYYYAA.m3u8
+#EXTINF:-1 tvg-chno="351" tvg-id="Soccer.Dummy.us" tvg-name="[German Bundesliga] Mainz vs Bayer Leverkusen 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/10.png" group-title="Live Events",[German Bundesliga] Mainz vs Bayer Leverkusen 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://www.rtmpcdn.com/live/ca8fb2ed-68a6-47f9-b893-f2f5008dd43c.m3u8
+#EXTINF:-1 tvg-chno="352" tvg-id="Soccer.Dummy.us" tvg-name="[German Bundesliga] Paderborn vs Stuttgart (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/10.png" group-title="Live Events",[German Bundesliga] Paderborn vs Stuttgart (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.41/hls/KYYYAAA.m3u8
+#EXTINF:-1 tvg-chno="353" tvg-id="Soccer.Dummy.us" tvg-name="[German Bundesliga] Paderborn vs Stuttgart 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/10.png" group-title="Live Events",[German Bundesliga] Paderborn vs Stuttgart 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://www.rtmpcdn.com/live/0dae0294-a293-47d2-9a9f-b2e5e184a6df.m3u8
+#EXTINF:-1 tvg-chno="358" tvg-id="Soccer.Dummy.us" tvg-name="[German Bundesliga] Union Berlin vs Elversberg (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/10.png" group-title="Live Events",[German Bundesliga] Union Berlin vs Elversberg (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.41/hls/KYYYAAAA.m3u8
+#EXTINF:-1 tvg-chno="359" tvg-id="Soccer.Dummy.us" tvg-name="[German Bundesliga] Union Berlin vs Elversberg 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/10.png" group-title="Live Events",[German Bundesliga] Union Berlin vs Elversberg 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://www.rtmpcdn.com/live/a95f5ba0-6de6-4d16-b554-a1321700c664.m3u8
+#EXTINF:-1 tvg-chno="382" tvg-id="Soccer.Dummy.us" tvg-name="[Italy Serie A] Genoa vs Fiorentina 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png" group-title="Live Events",[Italy Serie A] Genoa vs Fiorentina 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.41/hls/DUUUUQQ.m3u8
+#EXTINF:-1 tvg-chno="383" tvg-id="Soccer.Dummy.us" tvg-name="[Italy Serie A] Genoa vs Fiorentina 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png" group-title="Live Events",[Italy Serie A] Genoa vs Fiorentina 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://www.rtmpcdn.com/live/a4555315-9ef2-4516-b196-901f303d9e69.m3u8
+#EXTINF:-1 tvg-chno="674" tvg-id="Soccer.Dummy.us" tvg-name="[Poland Ekstraklasa] Cracovia vs Zaglebie (FAWA)" tvg-logo="https://assets.football-logos.cc/logos/poland/700x700/ekstraklasa.007755e8.png" group-title="Live Events",[Poland Ekstraklasa] Cracovia vs Zaglebie (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.41/hls/R777AAAAAAQQQQQQAA.m3u8
+#EXTINF:-1 tvg-chno="811" tvg-id="Soccer.Dummy.us" tvg-name="[Saudi Premier League] Al Hazem vs Neom SC 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png" group-title="Live Events",[Saudi Premier League] Al Hazem vs Neom SC 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.41/hls/KYYYAAAAA.m3u8
+#EXTINF:-1 tvg-chno="820" tvg-id="Soccer.Dummy.us" tvg-name="[Scottish Premiership] Dundee Utd vs Hibernian (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/45.png" group-title="Live Events",[Scottish Premiership] Dundee Utd vs Hibernian (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.44/hls/sasasaAAAQQQQQQA.m3u8
+#EXTINF:-1 tvg-chno="821" tvg-id="Soccer.Dummy.us" tvg-name="[Scottish Premiership] Falkirk vs Dundee FC (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/45.png" group-title="Live Events",[Scottish Premiership] Falkirk vs Dundee FC (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.59/hls/QAQAQAQQQQQAAQAQ.m3u8
+#EXTINF:-1 tvg-chno="822" tvg-id="Soccer.Dummy.us" tvg-name="[Scottish Premiership] Hearts vs St Mirren (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/45.png" group-title="Live Events",[Scottish Premiership] Hearts vs St Mirren (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.50/hls/FUUUQQQQQAAAAA.m3u8
+#EXTINF:-1 tvg-chno="823" tvg-id="Soccer.Dummy.us" tvg-name="[Scottish Premiership] Rangers vs Kilmarnock (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/45.png" group-title="Live Events",[Scottish Premiership] Rangers vs Kilmarnock (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.55/hls/KSSSAQQQQAAAA.m3u8
+#EXTINF:-1 tvg-chno="829" tvg-id="Soccer.Dummy.us" tvg-name="[Serbia Super Liga] IMT Novi Beograd vs Radnik (FAWA)" tvg-logo="https://assets.footylogos.com/previews/serbian-superliga/serbian-superliga-logo-footylogos-1200.webp" group-title="Live Events",[Serbia Super Liga] IMT Novi Beograd vs Radnik (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.41/hls/DUUUU.m3u8
+#EXTINF:-1 tvg-chno="885" tvg-id="Soccer.Dummy.us" tvg-name="[Spanish La Liga] Alaves vs Atletico Madrid 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Spanish La Liga] Alaves vs Atletico Madrid 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.41/hls/ORRRQQQ.m3u8
+#EXTINF:-1 tvg-chno="886" tvg-id="Soccer.Dummy.us" tvg-name="[Spanish La Liga] Alaves vs Atletico Madrid 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Spanish La Liga] Alaves vs Atletico Madrid 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://www.rtmpcdn.com/live/c0715e6e-7599-41e3-bcc4-23f9f7a241e8.m3u8
+#EXTINF:-1 tvg-chno="889" tvg-id="Soccer.Dummy.us" tvg-name="[Spanish Segunda Liga] Ceuta vs Sabadell (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/107.png" group-title="Live Events",[Spanish Segunda Liga] Ceuta vs Sabadell (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.41/hls/ORRRQQ.m3u8
+#EXTINF:-1 tvg-chno="897" tvg-id="Soccer.Dummy.us" tvg-name="[Sweden Allsvenskan] AIK vs Brommapojkarna 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/16.png" group-title="Live Events",[Sweden Allsvenskan] AIK vs Brommapojkarna 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.41/hls/DUUUUQQQQQ.m3u8
+#EXTINF:-1 tvg-chno="898" tvg-id="Soccer.Dummy.us" tvg-name="[Sweden Allsvenskan] AIK vs Brommapojkarna 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/16.png" group-title="Live Events",[Sweden Allsvenskan] AIK vs Brommapojkarna 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://www.rtmpcdn.com/live/5f39ea53-e6e3-4617-b2f5-0a5b39cf193b.m3u8
+#EXTINF:-1 tvg-chno="899" tvg-id="Soccer.Dummy.us" tvg-name="[Sweden Allsvenskan] GAIS vs Sirius 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/16.png" group-title="Live Events",[Sweden Allsvenskan] GAIS vs Sirius 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.41/hls/DUUUUQQQQAQ.m3u8
+#EXTINF:-1 tvg-chno="900" tvg-id="Soccer.Dummy.us" tvg-name="[Sweden Allsvenskan] GAIS vs Sirius 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/16.png" group-title="Live Events",[Sweden Allsvenskan] GAIS vs Sirius 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://www.rtmpcdn.com/live/2e1652bf-b579-4167-b8db-399a9b8602cf.m3u8
+#EXTINF:-1 tvg-chno="901" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Sweden Hockey SHL] Farjestad vs Malmo (FAWA)" tvg-logo="https://liquipedia.net/commons/images/thumb/2/2e/Swedish_Hockey_League_lightmode.png/600px-Swedish_Hockey_League_lightmode.png" group-title="Live Events",[Sweden Hockey SHL] Farjestad vs Malmo (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.41/hls/NTTTQ.m3u8
+#EXTINF:-1 tvg-chno="902" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Sweden Hockey SHL] HV 71 vs Brynas (FAWA)" tvg-logo="https://liquipedia.net/commons/images/thumb/2/2e/Swedish_Hockey_League_lightmode.png/600px-Swedish_Hockey_League_lightmode.png" group-title="Live Events",[Sweden Hockey SHL] HV 71 vs Brynas (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.41/hls/NTTTQQ.m3u8
+#EXTINF:-1 tvg-chno="903" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Sweden Hockey SHL] Lulea vs Timra (FAWA)" tvg-logo="https://liquipedia.net/commons/images/thumb/2/2e/Swedish_Hockey_League_lightmode.png/600px-Swedish_Hockey_League_lightmode.png" group-title="Live Events",[Sweden Hockey SHL] Lulea vs Timra (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.41/hls/NTTTQQQ.m3u8
+#EXTINF:-1 tvg-chno="912" tvg-id="Tennis.Dummy.us" tvg-name="[Tennis WTA] Tennis WTA Beijing (FAWA)" tvg-logo="https://files.catbox.moe/q8ljra.png" group-title="Live Events",[Tennis WTA] Tennis WTA Beijing (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.41/hls/bttttQQ.m3u8
+#EXTINF:-1 tvg-chno="918" tvg-id="Soccer.Dummy.us" tvg-name="[Turkey Lig 1] Igdir FK vs Batman Petrolspor (FAWA)" tvg-logo="https://cdn.prod.website-files.com/68f550992570ca0322737dc2/6a5a1c51be53a092d0d199b9_1-lig-turkey-logo-footylogos.png" group-title="Live Events",[Turkey Lig 1] Igdir FK vs Batman Petrolspor (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.41/hls/TGGGAAAAAQ.m3u8
+#EXTINF:-1 tvg-chno="919" tvg-id="Soccer.Dummy.us" tvg-name="[Turkey Super Lig] Alanyaspor vs Erzurumspor (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/18.png" group-title="Live Events",[Turkey Super Lig] Alanyaspor vs Erzurumspor (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.41/hls/TGGGAAAAAQQ.m3u8
+#EXTINF:-1 tvg-chno="921" tvg-id="Soccer.Dummy.us" tvg-name="[Turkey Super Lig] Samsunspor vs Trabzonspor (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/18.png" group-title="Live Events",[Turkey Super Lig] Samsunspor vs Trabzonspor (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.41/hls/TGGGAAAAAQQQ.m3u8
+#EXTINF:-1 tvg-chno="932" tvg-id="Rugby.Dummy.us" tvg-name="[United Rugby Championship] Zebre vs Edinburgh (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[United Rugby Championship] Zebre vs Edinburgh (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.55/hls/KSSSA.m3u8
